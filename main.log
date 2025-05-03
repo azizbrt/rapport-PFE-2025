@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.1)  3 MAY 2025 12:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.1)  3 MAY 2025 13:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1238,7 +1238,7 @@ Chapitre 3.
 [26
 
 ]
-Underfull \hbox (badness 2189) in paragraph at lines 65--65
+Underfull \hbox (badness 2189) in paragraph at lines 62--62
 []|\T1/ptm/m/n/12 En tant que ges-tion-naire, je sou-haite
  []
 
@@ -1253,9 +1253,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <projet/images/diagramme de sequance/images/utilisateur.png, id=683, 413.74574pt x 124.66576pt>
 File: projet/images/diagramme de sequance/images/utilisateur.png Graphic file (type png)
 <use projet/images/diagramme de sequance/images/utilisateur.png>
-Package pdftex.def Info: projet/images/diagramme de sequance/images/utilisateur.png  used on input line 94.
+Package pdftex.def Info: projet/images/diagramme de sequance/images/utilisateur.png  used on input line 87.
 (pdftex.def)             Requested size: 273.14923pt x 82.30627pt.
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1265,14 +1264,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [28 <./projet/images/diagramme de sequance/images/utilisateur.png>]
-Overfull \hbox (0.93987pt too wide) in paragraph at lines 147--148
+Overfull \hbox (0.93987pt too wide) in paragraph at lines 140--141
 []\T1/ptm/b/n/12 La fi-gure ci-dessous re-pré-sente le deuxième dia-gramme de cas d'uti-li-sa-tion de ce sprint. 
  []
 
-<projet/images/diagramme de sequance/images/gestionnaire.png, id=690, 495.0495pt x 130.68825pt>
+<projet/images/diagramme de sequance/images/gestionnaire.png, id=691, 495.0495pt x 130.68825pt>
 File: projet/images/diagramme de sequance/images/gestionnaire.png Graphic file (type png)
 <use projet/images/diagramme de sequance/images/gestionnaire.png>
-Package pdftex.def Info: projet/images/diagramme de sequance/images/gestionnaire.png  used on input line 151.
+Package pdftex.def Info: projet/images/diagramme de sequance/images/gestionnaire.png  used on input line 144.
 (pdftex.def)             Requested size: 273.14923pt x 72.11006pt.
 
 
@@ -1295,7 +1294,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <projet/images/diagramme de sequance/consulter les utilisateurs admin sequnace diagram(1).png, id=714, 834.11626pt x 492.84125pt>
 File: projet/images/diagramme de sequance/consulter les utilisateurs admin sequnace diagram(1).png Graphic file (type png)
 <use projet/images/diagramme de sequance/consulter les utilisateurs admin sequnace diagram(1).png>
-Package pdftex.def Info: projet/images/diagramme de sequance/consulter les utilisateurs admin sequnace diagram(1).png  used on input line 208.
+Package pdftex.def Info: projet/images/diagramme de sequance/consulter les utilisateurs admin sequnace diagram(1).png  used on input line 201.
 (pdftex.def)             Requested size: 273.14923pt x 161.38976pt.
 
 
@@ -1325,12 +1324,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <projet/images/diagramme de sequance/diagrame de sequance s'athentifier.png, id=751, 913.4125pt x 760.8425pt>
 File: projet/images/diagramme de sequance/diagrame de sequance s'athentifier.png Graphic file (type png)
 <use projet/images/diagramme de sequance/diagrame de sequance s'athentifier.png>
-Package pdftex.def Info: projet/images/diagramme de sequance/diagrame de sequance s'athentifier.png  used on input line 320.
+Package pdftex.def Info: projet/images/diagramme de sequance/diagrame de sequance s'athentifier.png  used on input line 313.
 (pdftex.def)             Requested size: 455.24411pt x 379.20131pt.
 <projet/images/diagramme de sequance/cree utilisateur admin sequance diagram.png, id=752, 886.31125pt x 630.355pt>
 File: projet/images/diagramme de sequance/cree utilisateur admin sequance diagram.png Graphic file (type png)
 <use projet/images/diagramme de sequance/cree utilisateur admin sequance diagram.png>
-Package pdftex.def Info: projet/images/diagramme de sequance/cree utilisateur admin sequance diagram.png  used on input line 327.
+Package pdftex.def Info: projet/images/diagramme de sequance/cree utilisateur admin sequance diagram.png  used on input line 320.
 (pdftex.def)             Requested size: 455.24411pt x 323.77559pt.
 
 
@@ -1345,7 +1344,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <projet/images/diagramme de sequance/modifier utlisateur admin sequance diagram.png, id=759, 907.39pt x 789.95125pt>
 File: projet/images/diagramme de sequance/modifier utlisateur admin sequance diagram.png Graphic file (type png)
 <use projet/images/diagramme de sequance/modifier utlisateur admin sequance diagram.png>
-Package pdftex.def Info: projet/images/diagramme de sequance/modifier utlisateur admin sequance diagram.png  used on input line 334.
+Package pdftex.def Info: projet/images/diagramme de sequance/modifier utlisateur admin sequance diagram.png  used on input line 327.
 (pdftex.def)             Requested size: 455.24411pt x 396.32466pt.
 
 
@@ -1360,7 +1359,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <projet/images/diagramme de sequance/supprimer utilisateur admin sequance diagram.png, id=766, 839.135pt x 489.83pt>
 File: projet/images/diagramme de sequance/supprimer utilisateur admin sequance diagram.png Graphic file (type png)
 <use projet/images/diagramme de sequance/supprimer utilisateur admin sequance diagram.png>
-Package pdftex.def Info: projet/images/diagramme de sequance/supprimer utilisateur admin sequance diagram.png  used on input line 341.
+Package pdftex.def Info: projet/images/diagramme de sequance/supprimer utilisateur admin sequance diagram.png  used on input line 334.
 (pdftex.def)             Requested size: 455.24411pt x 265.7375pt.
 
 
@@ -1374,12 +1373,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [36 <./projet/images/diagramme de sequance/modifier utlisateur admin sequance diagram.png>]
 File: projet/images/diagramme de sequance/consulter les utilisateurs admin sequnace diagram(1).png Graphic file (type png)
 <use projet/images/diagramme de sequance/consulter les utilisateurs admin sequnace diagram(1).png>
-Package pdftex.def Info: projet/images/diagramme de sequance/consulter les utilisateurs admin sequnace diagram(1).png  used on input line 348.
+Package pdftex.def Info: projet/images/diagramme de sequance/consulter les utilisateurs admin sequnace diagram(1).png  used on input line 341.
 (pdftex.def)             Requested size: 455.24411pt x 268.98795pt.
 <projet/images/diagramme de sequance/images/registration.png, id=772, 1917.1625pt x 926.46124pt>
 File: projet/images/diagramme de sequance/images/registration.png Graphic file (type png)
 <use projet/images/diagramme de sequance/images/registration.png>
-Package pdftex.def Info: projet/images/diagramme de sequance/images/registration.png  used on input line 360.
+Package pdftex.def Info: projet/images/diagramme de sequance/images/registration.png  used on input line 353.
 (pdftex.def)             Requested size: 455.24411pt x 219.99442pt.
 
 
@@ -1394,12 +1393,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <projet/images/diagramme de sequance/images/login.png, id=778, 1917.1625pt x 926.46124pt>
 File: projet/images/diagramme de sequance/images/login.png Graphic file (type png)
 <use projet/images/diagramme de sequance/images/login.png>
-Package pdftex.def Info: projet/images/diagramme de sequance/images/login.png  used on input line 367.
+Package pdftex.def Info: projet/images/diagramme de sequance/images/login.png  used on input line 360.
 (pdftex.def)             Requested size: 455.24411pt x 219.99442pt.
 <projet/images/diagramme de sequance/images/gestion d'utilisateur.png, id=779, 1917.1625pt x 926.46124pt>
 File: projet/images/diagramme de sequance/images/gestion d'utilisateur.png Graphic file (type png)
 <use projet/images/diagramme de sequance/images/gestion d'utilisateur.png>
-Package pdftex.def Info: projet/images/diagramme de sequance/images/gestion d'utilisateur.png  used on input line 376.
+Package pdftex.def Info: projet/images/diagramme de sequance/images/gestion d'utilisateur.png  used on input line 369.
 (pdftex.def)             Requested size: 455.24411pt x 219.99442pt.
 ) (projet/chapitre4.tex
 
@@ -1533,7 +1532,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,12n,79p,588b,674s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/azizb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/azizb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/azizb/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/azizb/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/azizb/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/azizb/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (53 pages, 2388527 bytes).
+Output written on main.pdf (53 pages, 2388437 bytes).
 PDF statistics:
  929 PDF objects out of 1000 (max. 8388607)
  251 named destinations out of 1000 (max. 500000)
