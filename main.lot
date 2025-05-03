@@ -1,13 +1,23 @@
 \babel@toc {french}{}\relax 
-\contentsline {xchapter}{}{iv}{Doc-Start}%
+\contentsline {xchapter}{}{vii}{Doc-Start}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Présentation du cadre du projet}{2}{chapter.1}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Planification du projet}{10}{chapter.2}%
-\contentsline {table}{\numberline {2.1}{\ignorespaces Product Backlog}}{14}{table.caption.16}%
+\contentsline {xchapter}{Planification du projet}{9}{chapter.2}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Product Backlog}}{14}{table.caption.17}%
 \contentsline {table}{\numberline {2.2}{\ignorespaces Identification des acteurs et de leurs fonctionnalités}}{16}{table.2.2}%
-\contentsline {table}{\numberline {2.3}{\ignorespaces Caractéristiques matérielles des ordinateurs utilisés}}{19}{table.caption.21}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Caractéristiques matérielles des ordinateurs utilisés}}{18}{table.caption.22}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{RELEASE 1}{28}{chapter.3}%
+\contentsline {xchapter}{RELEASE 1}{26}{chapter.3}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces User Stories – Sprint Authentification et gestion des utilisateurs}}{27}{table.3.1}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Description textuelle du cas d'utilisation pour Créer un compte}}{29}{Item.9}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Description textuelle du cas d'utilisation « S'authentifier (Utilisateur) »}}{29}{Item.13}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Description textuelle du cas d'utilisation pour Créer un compte}}{30}{Item.17}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces Description textuelle du cas d'utilisation « S'authentifier (Gestionnaire) »}}{31}{Item.21}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces Description textuelle du cas d'utilisation pour créer un utilisateur}}{32}{Item.28}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces Description textuelle du cas d'utilisation pour modifier un utilisateur}}{33}{Item.35}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces Description textuelle du cas d'utilisation pour supprimer un utilisateur}}{33}{Item.40}%
+\contentsline {table}{\numberline {3.9}{\ignorespaces Description textuelle du cas d'utilisation pour consulter la liste des utilisateurs}}{34}{Item.42}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{RELEASE 2}{30}{chapter.4}%
+\contentsline {xchapter}{RELEASE 2}{40}{chapter.4}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces User Stories - Sprint Gestion des événements}}{41}{table.caption.63}%

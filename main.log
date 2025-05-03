@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.1)  1 MAY 2025 18:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.1)  3 MAY 2025 12:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -471,15 +471,36 @@ Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is usel
 (C:\Users\azizb\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-03-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count317
+) (main.aux
+Package babel Info: 'french' activates 'french' shorthands.
+(babel)             Reported  on input line 11.
+
+
+LaTeX Warning: Label `fig:equipe_scrum' multiply defined.
+
+
+LaTeX Warning: Label `fig:equipe_scrum' multiply defined.
+
+
+LaTeX Warning: Label `fig:equipe_scrum' multiply defined.
+
+
+LaTeX Warning: Label `fig:equipe_scrum' multiply defined.
+
+
+LaTeX Warning: Label `fig:equipe_scrum' multiply defined.
+
+
+LaTeX Warning: Label `fig:equipe_scrum' multiply defined.
+
 )
-No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
 LaTeX Font Info:    ... okay on input line 52.
 LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 52.
 LaTeX Font Info:    Trying to load font information for OMS+pzccm on input line 52.
-(C:\Users\azizb\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omspzccm.fd
+ (C:\Users\azizb\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
 LaTeX Font Info:    ... okay on input line 52.
@@ -575,6 +596,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 52.
+ (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -587,8 +609,6 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package babel Info: 'french' activates 'french' shorthands.
-(babel)             Reported  on input line 52.
 LaTeX Info: Redefining \degres on input line 52.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
@@ -606,41 +626,127 @@ Package caption Info: End \AtBeginDocument code.
 
 
 {C:/Users/azizb/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/azizb/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}])
+Package minitoc Info: I0024
+(minitoc)             PREPARING MINITOCS FROM main.toc on input line 60.
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc1.
+\openout3 = `main.mtc1'.
 
-Package minitoc Warning: W0010
-(minitoc)                No file main.toc. 
-(minitoc)                MINITOCS NOT PREPARED on input line 60.
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc2.
+\openout3 = `main.mtc2'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc3.
+\openout3 = `main.mtc3'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc4.
+\openout3 = `main.mtc4'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc5.
+\openout3 = `main.mtc5'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc6.
+\openout3 = `main.mtc6'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc7.
+\openout3 = `main.mtc7'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc8.
+\openout3 = `main.mtc8'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc9.
+\openout3 = `main.mtc9'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc10.
+\openout3 = `main.mtc10'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc11.
+\openout3 = `main.mtc11'.
 
 
 
 [1
 
-]
-No file main.toc.
-\tf@toc=\write5
-\openout5 = `main.toc'.
-
+] (main.toc
+LaTeX Font Info:    Trying to load font information for OT1+ptmcm on input line 6.
+ (C:\Users\azizb\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptmcm.fd
+File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ptmcm on input line 6.
+ (C:\Users\azizb\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlptmcm.fd
+File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+psycm on input line 6.
+ (C:\Users\azizb\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxpsycm.fd
+File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
 
 
 [2
 
 ]
-No file main.lof.
+
+Package babel Info: 'french' activates 'french' shorthands.
+(babel)             Reported  on input line 46.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.13202pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.13202pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.13202pt}.
+
+[3])
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.13202pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.13202pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.13202pt}.
+
+[4] (main.lof
+
+[5
+
+])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
 
 
-[3
 
-]
-No file main.lot.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6] (main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
 
 
-[4
+[7
 
 ] (projet/introduction.tex)
 Overfull \hbox (0.2435pt too wide) in paragraph at lines 14--68
@@ -676,59 +782,18 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 34
  (C:\Users\azizb\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-
-LaTeX Warning: File `projet/images/omminet.png' not found on input line 47.
-
-
-! Package pdftex.def Error: File `projet/images/omminet.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 ...dth=\linewidth]{projet/images/omminet.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for OT1+ptmcm on input line 48.
-(C:\Users\azizb\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptmcm.fd
-File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
-)
-LaTeX Font Info:    Trying to load font information for OML+ptmcm on input line 48.
- (C:\Users\azizb\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlptmcm.fd
-File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
-)
-LaTeX Font Info:    Trying to load font information for OMX+psycm on input line 48.
- (C:\Users\azizb\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxpsycm.fd
-File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
+<projet/images/diagramme de sequance/images/omminet.png, id=413, 237.88875pt x 354.57469pt>
+File: projet/images/diagramme de sequance/images/omminet.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/omminet.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/omminet.png  used on input line 47.
+(pdftex.def)             Requested size: 204.85846pt x 305.3557pt.
+<projet/images/diagramme de sequance/images/omminet1.png, id=415, 238.64156pt x 258.9675pt>
+File: projet/images/diagramme de sequance/images/omminet1.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/omminet1.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/omminet1.png  used on input line 52.
+(pdftex.def)             Requested size: 204.85846pt x 222.30463pt.
 
 
-LaTeX Warning: File `projet/images/omminet1.png' not found on input line 52.
-
-
-! Package pdftex.def Error: File `projet/images/omminet1.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...th=\linewidth]{projet/images/omminet1.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-Package babel Info: 'french' activates 'french' shorthands.
-(babel)             Reported  on input line 56.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -745,7 +810,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4]
+[4 <./projet/images/diagramme de sequance/images/omminet.png> <./projet/images/diagramme de sequance/images/omminet1.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -755,16 +820,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5]
-
-LaTeX Warning: Citation `ref1' on page 6 undefined on input line 105.
-
-
-LaTeX Warning: Citation `ref2' on page 6 undefined on input line 109.
-
-
-LaTeX Warning: Citation `ref3' on page 6 undefined on input line 114.
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -783,21 +838,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7]
-
-LaTeX Warning: File `projet/images/methodeScrum.jpg' not found on input line 146.
-
-
-! Package pdftex.def Error: File `projet/images/methodeScrum.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.146 ...inewidth]{projet/images/methodeScrum.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<projet/images/diagramme de sequance/images/methodeScrum.jpg, id=454, 1156.32pt x 634.62094pt>
+File: projet/images/diagramme de sequance/images/methodeScrum.jpg Graphic file (type jpg)
+<use projet/images/diagramme de sequance/images/methodeScrum.jpg>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/methodeScrum.jpg  used on input line 146.
+(pdftex.def)             Requested size: 409.71692pt x 224.86108pt.
 ) (projet/chapitre2.tex
 
 
@@ -807,16 +852,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[9]
+[8 <./projet/images/diagramme de sequance/images/methodeScrum.jpg>]
 Chapitre 2.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
@@ -824,7 +860,7 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 
 
 
-[10
+[9
 
 ]
 
@@ -835,22 +871,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11]
-
-LaTeX Warning: File `projet/images/equipeScrum.png' not found on input line 104.
-
-
-! Package pdftex.def Error: File `projet/images/equipeScrum.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.104 ...linewidth]{projet/images/equipeScrum.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+[10]
+<projet/images/diagramme de sequance/images/equipeScrum.png, id=474, 331.2375pt x 236.082pt>
+File: projet/images/diagramme de sequance/images/equipeScrum.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/equipeScrum.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/equipeScrum.png  used on input line 104.
+(pdftex.def)             Requested size: 318.66948pt x 227.13324pt.
 
 
 
@@ -860,15 +886,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12]
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 110--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
-[]|\T1/ptm/m/n/12 En tant qu'ad-mi-nis-tra-teur, je veux
+Underfull \hbox (badness 2189) in paragraph at lines 132--132
+[]|\T1/ptm/m/n/12 En tant que ges-tion-naire, je sou-haite
  []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -882,11 +911,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+[12 <./projet/images/diagramme de sequance/images/equipeScrum.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
 [13]
-
-LaTeX Warning: Text page 14 contains only floats.
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -896,80 +930,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [14]
+<projet/images/diagramme de sequance/images/R1.png, id=497, 1445.4pt x 813.0375pt>
+File: projet/images/diagramme de sequance/images/R1.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/R1.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/R1.png  used on input line 193.
+(pdftex.def)             Requested size: 409.71692pt x 230.46509pt.
+<projet/images/diagramme de sequance/acteur.jpg, id=499, 35.38219pt x 49.68562pt>
+File: projet/images/diagramme de sequance/acteur.jpg Graphic file (type jpg)
+<use projet/images/diagramme de sequance/acteur.jpg>
+Package pdftex.def Info: projet/images/diagramme de sequance/acteur.jpg  used on input line 211.
+(pdftex.def)             Requested size: 34.14365pt x 47.9501pt.
+File: projet/images/diagramme de sequance/acteur.jpg Graphic file (type jpg)
+<use projet/images/diagramme de sequance/acteur.jpg>
+Package pdftex.def Info: projet/images/diagramme de sequance/acteur.jpg  used on input line 222.
+(pdftex.def)             Requested size: 34.14365pt x 47.9501pt.
+File: projet/images/diagramme de sequance/acteur.jpg Graphic file (type jpg)
+<use projet/images/diagramme de sequance/acteur.jpg>
+Package pdftex.def Info: projet/images/diagramme de sequance/acteur.jpg  used on input line 233.
+(pdftex.def)             Requested size: 34.14365pt x 47.9501pt.
 
-LaTeX Warning: File `projet/images/R1.png' not found on input line 178.
-
-
-! Package pdftex.def Error: File `projet/images/R1.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.178 ...idth=0.9\linewidth]{projet/images/R1.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Reference `tab:identification_acteurs' on page 15 undefined on input line 188.
-
-
-LaTeX Warning: File `projet/images/acteur.jpg' not found on input line 196.
-
-
-! Package pdftex.def Error: File `projet/images/acteur.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.196 }
-        &
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `projet/images/acteur.jpg' not found on input line 207.
-
-
-! Package pdftex.def Error: File `projet/images/acteur.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.207 }
-        &
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `projet/images/acteur.jpg' not found on input line 218.
-
-
-! Package pdftex.def Error: File `projet/images/acteur.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.218 }
-        &
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 2310) in paragraph at lines 221--222
+Underfull \hbox (badness 2310) in paragraph at lines 236--237
 []\T1/ptm/m/n/12 Cr�er et mo-di-fier des �v�-ne-
  []
 
 
-Overfull \hbox (9.14719pt too wide) in alignment at lines 190--228
+Overfull \hbox (9.14719pt too wide) in alignment at lines 205--243
  [] [] [] 
  []
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -980,37 +967,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [15
 
-]
-
-LaTeX Warning: File `projet/images/Diagramme de contexte statique.png' not found on input line 237.
-
-
-! Package pdftex.def Error: File `projet/images/Diagramme de contexte statique.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.237 ...mages/Diagramme de contexte statique.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `projet/images/Diagramme de cas d’utilisation global.png' not found on input line 247.
-
-
-! Package pdftex.def Error: File `projet/images/Diagramme de cas d’utilisation global.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.247 ...gramme de cas d’utilisation global.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+ <./projet/images/diagramme de sequance/images/R1.png> <./projet/images/diagramme de sequance/acteur.jpg>]
+<projet/images/diagramme de sequance/images/Diagramme de contexte statique.png, id=505, 845.1575pt x 644.4075pt>
+File: projet/images/diagramme de sequance/images/Diagramme de contexte statique.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/Diagramme de contexte statique.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/Diagramme de contexte statique.png  used on input line 252.
+(pdftex.def)             Requested size: 253.54921pt x 193.32373pt.
+<projet/images/diagramme de sequance/images/Diagramme de cas d’utilisation global.png, id=506, 1669.23625pt x 1246.6575pt>
+File: projet/images/diagramme de sequance/images/Diagramme de cas d’utilisation global.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/Diagramme de cas d’utilisation global.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/Diagramme de cas d’utilisation global.png  used on input line 262.
+(pdftex.def)             Requested size: 455.24411pt x 339.98802pt.
 
 
 
@@ -1020,22 +987,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[16]
-
-LaTeX Warning: File `projet/images/diagramme de classe.png' not found on input line 257.
-
-
-! Package pdftex.def Error: File `projet/images/diagramme de classe.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.257 ...h]{projet/images/diagramme de classe.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+[16 <./projet/images/diagramme de sequance/images/Diagramme de contexte statique.png>]
+<projet/images/diagramme de sequance/images/diagramme de classe.png, id=512, 669.702pt x 380.01974pt>
+File: projet/images/diagramme de sequance/images/diagramme de classe.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/diagramme de classe.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/diagramme de classe.png  used on input line 272.
+(pdftex.def)             Requested size: 432.48051pt x 245.40948pt.
 
 
 
@@ -1045,79 +1002,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[17]
-
-LaTeX Warning: Reference `tab:environnement_materiel' on page 18 undefined on input line 268.
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[18]
-
-LaTeX Warning: File `projet/images/vs code.png' not found on input line 290.
-
-
-! Package pdftex.def Error: File `projet/images/vs code.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.290 ...th=\linewidth]{projet/images/vs code.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! You can't use `macro parameter character #' in horizontal mode.
-l.295 ...angages de programmation tels que C++, C#
-                                                  , Python, Java, etc.
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-LaTeX Warning: File `projet/images/PostMan.png' not found on input line 304.
-
-
-! Package pdftex.def Error: File `projet/images/PostMan.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.304 ...th=\linewidth]{projet/images/PostMan.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `ref5' on page 19 undefined on input line 309.
-
-
-LaTeX Warning: File `projet/images/Node JS.png' not found on input line 318.
-
-
-! Package pdftex.def Error: File `projet/images/Node JS.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.318 ...th=\linewidth]{projet/images/Node JS.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `ref6' on page 19 undefined on input line 323.
-
+[17 <./projet/images/diagramme de sequance/images/Diagramme de cas d’utilisation global.png>]
+<projet/images/diagramme de sequance/images/vs code.png, id=520, 1284.8pt x 722.7pt>
+File: projet/images/diagramme de sequance/images/vs code.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/vs code.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/vs code.png  used on input line 305.
+(pdftex.def)             Requested size: 136.57462pt x 76.81755pt.
 
 
 
@@ -1127,79 +1017,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[19]
-
-LaTeX Warning: File `projet/images/GITHUB.png' not found on input line 332.
-
-
-! Package pdftex.def Error: File `projet/images/GITHUB.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.332 ...dth=\linewidth]{projet/images/GITHUB.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `ref7' on page 20 undefined on input line 337.
-
-
-LaTeX Warning: File `projet/images/Overleaf.png' not found on input line 346.
-
-
-! Package pdftex.def Error: File `projet/images/Overleaf.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.346 ...h=\linewidth]{projet/images/Overleaf.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `ref8' on page 20 undefined on input line 351.
-
-
-LaTeX Warning: File `projet/images/téléchargement.jpg' not found on input line 359.
-
-
-! Package pdftex.def Error: File `projet/images/téléchargement.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.359 ...idth]{projet/images/téléchargement.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `ref27' on page 20 undefined on input line 364.
-
-
-LaTeX Warning: File `projet/images/HTML5.png' not found on input line 373.
-
-
-! Package pdftex.def Error: File `projet/images/HTML5.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.373 ...idth=\linewidth]{projet/images/HTML5.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `ref9' on page 20 undefined on input line 378.
-
+[18 <./projet/images/diagramme de sequance/images/diagramme de classe.png>]
+<projet/images/diagramme de sequance/images/PostMan.png, id=526, 357.335pt x 142.5325pt>
+File: projet/images/diagramme de sequance/images/PostMan.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/PostMan.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/PostMan.png  used on input line 319.
+(pdftex.def)             Requested size: 136.57462pt x 54.47607pt.
+<projet/images/diagramme de sequance/images/Node JS.png, id=528, 298.11375pt x 170.6375pt>
+File: projet/images/diagramme de sequance/images/Node JS.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/Node JS.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/Node JS.png  used on input line 333.
+(pdftex.def)             Requested size: 136.57462pt x 78.17393pt.
+<projet/images/diagramme de sequance/images/GITHUB.png, id=530, 301.125pt x 168.63pt>
+File: projet/images/diagramme de sequance/images/GITHUB.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/GITHUB.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/GITHUB.png  used on input line 347.
+(pdftex.def)             Requested size: 136.57462pt x 76.4849pt.
+<projet/images/diagramme de sequance/images/Overleaf.png, id=532, 401.5pt x 132.495pt>
+File: projet/images/diagramme de sequance/images/Overleaf.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/Overleaf.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/Overleaf.png  used on input line 361.
+(pdftex.def)             Requested size: 136.57462pt x 45.06993pt.
+<projet/images/diagramme de sequance/images/téléchargement.jpg, id=534, 301.125pt x 168.63pt>
+File: projet/images/diagramme de sequance/images/téléchargement.jpg Graphic file (type jpg)
+<use projet/images/diagramme de sequance/images/téléchargement.jpg>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/téléchargement.jpg  used on input line 374.
+(pdftex.def)             Requested size: 136.57462pt x 76.4849pt.
 
 
 
@@ -1209,84 +1052,67 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[20]
+[19 <./projet/images/diagramme de sequance/images/vs code.png> <./projet/images/diagramme de sequance/images/PostMan.png> <./projet/images/diagramme de sequance/images/Node JS.png> <./projet/images/diagramme de sequance/images/GITHUB.png> <./projet/images/diagramme de sequance/images/Overleaf.png>]
+<projet/images/diagramme de sequance/images/HTML5.png, id=554, 1204.5pt x 1204.5pt>
+File: projet/images/diagramme de sequance/images/HTML5.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/HTML5.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/HTML5.png  used on input line 388.
+(pdftex.def)             Requested size: 136.57462pt x 136.57558pt.
+<projet/images/diagramme de sequance/CSS3.png, id=556, 411.136pt x 411.136pt>
+File: projet/images/diagramme de sequance/CSS3.png Graphic file (type png)
+<use projet/images/diagramme de sequance/CSS3.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/CSS3.png  used on input line 402.
+(pdftex.def)             Requested size: 136.57462pt x 136.57239pt.
+<projet/images/diagramme de sequance/images/JavaScript.png, id=558, 513.92pt x 513.92pt>
+File: projet/images/diagramme de sequance/images/JavaScript.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/JavaScript.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/JavaScript.png  used on input line 417.
+(pdftex.def)             Requested size: 136.57462pt x 136.57239pt.
+<projet/images/diagramme de sequance/images/latex.png, id=560, 1204.5pt x 501.875pt>
+File: projet/images/diagramme de sequance/images/latex.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/latex.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/latex.png  used on input line 433.
+(pdftex.def)             Requested size: 136.57462pt x 56.90648pt.
 
-LaTeX Warning: File `projet/images/CSS3.png' not found on input line 387.
-
-
-! Package pdftex.def Error: File `projet/images/CSS3.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.387 ...width=\linewidth]{projet/images/CSS3.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `ref10' on page 21 undefined on input line 393.
-
-
-LaTeX Warning: File `projet/images/JavaScript.png' not found on input line 402.
-
-
-! Package pdftex.def Error: File `projet/images/JavaScript.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.402 ...\linewidth]{projet/images/JavaScript.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `ref11' on page 21 undefined on input line 409.
-
-
-LaTeX Warning: File `projet/images/latex.png' not found on input line 418.
-
-
-! Package pdftex.def Error: File `projet/images/latex.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.418 ...idth=\linewidth]{projet/images/latex.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `ref12' on page 21 undefined on input line 423.
-
-
-Underfull \hbox (badness 1394) in paragraph at lines 422--424
+Underfull \hbox (badness 1394) in paragraph at lines 437--439
 \T1/ptm/m/n/12 col-lec-tion de macro-commandes des-ti-n�es � fa-ci-li-ter
  []
 
 
-LaTeX Warning: File `projet/images/Tailwind-CSS.png' not found on input line 430.
 
 
-! Package pdftex.def Error: File `projet/images/Tailwind-CSS.png' not found: using draft setting.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.430 ...inewidth]{projet/images/Tailwind-CSS.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `ref13' on page 21 undefined on input line 435.
-
+[20 <./projet/images/diagramme de sequance/images/téléchargement.jpg> <./projet/images/diagramme de sequance/images/HTML5.png> <./projet/images/diagramme de sequance/CSS3.png> <./projet/images/diagramme de sequance/images/JavaScript.png>]
+<projet/images/diagramme de sequance/images/Tailwind-CSS.png, id=577, 1204.5pt x 724.7075pt>
+File: projet/images/diagramme de sequance/images/Tailwind-CSS.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/Tailwind-CSS.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/Tailwind-CSS.png  used on input line 445.
+(pdftex.def)             Requested size: 136.57462pt x 82.17297pt.
+<projet/images/diagramme de sequance/images/express.png, id=579, 421.575pt x 120.45pt>
+File: projet/images/diagramme de sequance/images/express.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/express.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/express.png  used on input line 458.
+(pdftex.def)             Requested size: 136.57462pt x 39.0208pt.
+<projet/images/diagramme de sequance/images/mongodb.png, id=581, 1003.75pt x 667.49374pt>
+File: projet/images/diagramme de sequance/images/mongodb.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/mongodb.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/mongodb.png  used on input line 470.
+(pdftex.def)             Requested size: 136.57462pt x 90.82072pt.
+<projet/images/diagramme de sequance/images/reactJS.png, id=583, 307.1475pt x 165.61874pt>
+File: projet/images/diagramme de sequance/images/reactJS.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/reactJS.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/reactJS.png  used on input line 482.
+(pdftex.def)             Requested size: 136.57462pt x 73.64323pt.
+<projet/images/diagramme de sequance/images/vite.png, id=585, 1204.5pt x 629.35126pt>
+File: projet/images/diagramme de sequance/images/vite.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/vite.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/vite.png  used on input line 494.
+(pdftex.def)             Requested size: 136.57462pt x 71.36073pt.
 
 
 
@@ -1296,148 +1122,47 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[21]
+[21 <./projet/images/diagramme de sequance/images/latex.png> <./projet/images/diagramme de sequance/images/Tailwind-CSS.png> <./projet/images/diagramme de sequance/images/express.png> <./projet/images/diagramme de sequance/images/mongodb.png> <./projet/images/diagramme de sequance/images/reactJS.png>]
+<projet/images/diagramme de sequance/images/recharts.png, id=606, 513.92pt x 513.92pt>
+File: projet/images/diagramme de sequance/images/recharts.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/recharts.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/recharts.png  used on input line 507.
+(pdftex.def)             Requested size: 136.57462pt x 136.57239pt.
 
-LaTeX Warning: File `projet/images/express.png' not found on input line 443.
-
-
-! Package pdftex.def Error: File `projet/images/express.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.443 ...th=\linewidth]{projet/images/express.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `ref14' on page 22 undefined on input line 448.
-
-
-LaTeX Warning: File `projet/images/mongodb.png' not found on input line 455.
-
-
-! Package pdftex.def Error: File `projet/images/mongodb.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.455 ...th=\linewidth]{projet/images/mongodb.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `ref15' on page 22 undefined on input line 460.
-
-
-LaTeX Warning: File `projet/images/reactJS.png' not found on input line 467.
-
-
-! Package pdftex.def Error: File `projet/images/reactJS.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.467 ...th=\linewidth]{projet/images/reactJS.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `ref16' on page 22 undefined on input line 472.
-
-
-LaTeX Warning: File `projet/images/vite.png' not found on input line 479.
-
-
-! Package pdftex.def Error: File `projet/images/vite.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.479 ...width=\linewidth]{projet/images/vite.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `ref24' on page 22 undefined on input line 484.
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[22]
-
-LaTeX Warning: File `projet/images/recharts.png' not found on input line 492.
-
-
-! Package pdftex.def Error: File `projet/images/recharts.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.492 ...h=\linewidth]{projet/images/recharts.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `ref17' on page 23 undefined on input line 497.
-
-
-Underfull \hbox (badness 6842) in paragraph at lines 496--498
+Underfull \hbox (badness 6842) in paragraph at lines 511--513
 \T1/ptm/m/n/12 Est Une bi-blio-th�que de gra-phiques com-po-sables
  []
 
-
-LaTeX Warning: File `projet/images/router-dom.png' not found on input line 505.
-
-
-! Package pdftex.def Error: File `projet/images/router-dom.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.505 ...\linewidth]{projet/images/router-dom.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `ref18' on page 23 undefined on input line 510.
-
-
-LaTeX Warning: File `projet/images/Axios.png' not found on input line 518.
-
-
-! Package pdftex.def Error: File `projet/images/Axios.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.518 ...idth=\linewidth]{projet/images/Axios.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `ref19' on page 23 undefined on input line 523.
-
+<projet/images/diagramme de sequance/images/router-dom.png, id=608, 574.145pt x 305.14pt>
+File: projet/images/diagramme de sequance/images/router-dom.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/router-dom.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/router-dom.png  used on input line 520.
+(pdftex.def)             Requested size: 136.57462pt x 72.58324pt.
+<projet/images/diagramme de sequance/Axios.png, id=610, 1204.5pt x 602.25pt>
+File: projet/images/diagramme de sequance/Axios.png Graphic file (type png)
+<use projet/images/diagramme de sequance/Axios.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/Axios.png  used on input line 533.
+(pdftex.def)             Requested size: 136.57462pt x 68.28778pt.
+<projet/images/diagramme de sequance/images/TanStack Query.png, id=612, 1405.25pt x 274.02374pt>
+File: projet/images/diagramme de sequance/images/TanStack Query.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/TanStack Query.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/TanStack Query.png  used on input line 546.
+(pdftex.def)             Requested size: 136.57462pt x 26.63043pt.
+<projet/images/diagramme de sequance/images/material-ui-.png, id=614, 1927.2pt x 1084.05pt>
+File: projet/images/diagramme de sequance/images/material-ui-.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/material-ui-.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/material-ui-.png  used on input line 559.
+(pdftex.def)             Requested size: 136.57462pt x 76.81755pt.
+<projet/images/diagramme de sequance/images/lucide-react.png, id=616, 427.5975pt x 118.4425pt>
+File: projet/images/diagramme de sequance/images/lucide-react.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/lucide-react.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/lucide-react.png  used on input line 573.
+(pdftex.def)             Requested size: 136.57462pt x 37.83008pt.
+<projet/images/diagramme de sequance/images/jwt.png, id=618, 321.2pt x 321.2pt>
+File: projet/images/diagramme de sequance/images/jwt.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/jwt.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/jwt.png  used on input line 585.
+(pdftex.def)             Requested size: 136.57462pt x 136.57925pt.
 
 
 
@@ -1447,145 +1172,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[23]
+[22 <./projet/images/diagramme de sequance/images/vite.png (PNG copy)> <./projet/images/diagramme de sequance/images/recharts.png> <./projet/images/diagramme de sequance/images/router-dom.png> <./projet/images/diagramme de sequance/Axios.png> <./projet/images/diagramme de sequance/images/TanStack Query.png> <./projet/images/diagramme de sequance/images/material-ui-.png>]
+<projet/images/diagramme de sequance/AOS.png, id=641, 466.74374pt x 289.08pt>
+File: projet/images/diagramme de sequance/AOS.png Graphic file (type png)
+<use projet/images/diagramme de sequance/AOS.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/AOS.png  used on input line 599.
+(pdftex.def)             Requested size: 136.57462pt x 84.58533pt.
+<projet/images/diagramme de sequance/images/toast.png, id=643, 225.84375pt x 225.84375pt>
+File: projet/images/diagramme de sequance/images/toast.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/toast.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/toast.png  used on input line 611.
+(pdftex.def)             Requested size: 136.57462pt x 136.58246pt.
 
-LaTeX Warning: File `projet/images/TanStack Query.png' not found on input line 531.
-
-
-! Package pdftex.def Error: File `projet/images/TanStack Query.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.531 ...ewidth]{projet/images/TanStack Query.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `ref20' on page 24 undefined on input line 536.
-
-
-LaTeX Warning: File `projet/images/material-ui-.png' not found on input line 544.
-
-
-! Package pdftex.def Error: File `projet/images/material-ui-.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.544 ...inewidth]{projet/images/material-ui-.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `ref21' on page 24 undefined on input line 550.
-
-
-LaTeX Warning: File `projet/images/lucide-react.png' not found on input line 558.
-
-
-! Package pdftex.def Error: File `projet/images/lucide-react.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.558 ...inewidth]{projet/images/lucide-react.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `ref22' on page 24 undefined on input line 563.
-
-
-LaTeX Warning: File `projet/images/jwt.png' not found on input line 570.
-
-
-! Package pdftex.def Error: File `projet/images/jwt.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.570 ...[width=\linewidth]{projet/images/jwt.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `ref23' on page 24 undefined on input line 577.
-
-
-LaTeX Warning: File `projet/images/AOS.png' not found on input line 584.
-
-
-! Package pdftex.def Error: File `projet/images/AOS.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.584 ...[width=\linewidth]{projet/images/AOS.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `ref25' on page 24 undefined on input line 589.
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[24]
-
-LaTeX Warning: File `projet/images/toast.png' not found on input line 596.
-
-
-! Package pdftex.def Error: File `projet/images/toast.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.596 ...idth=\linewidth]{projet/images/toast.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `ref26' on page 25 undefined on input line 601.
-
-
-Underfull \hbox (badness 1038) in paragraph at lines 600--602
+Underfull \hbox (badness 1038) in paragraph at lines 615--617
 \T1/ptm/m/n/12 Est une bi-blio-th�que de no-ti-fi-ca-tions l�-g�re et open
  []
 
-
-LaTeX Warning: File `projet/images/Model-View-Controller.png' not found on input line 614.
-
-
-! Package pdftex.def Error: File `projet/images/Model-View-Controller.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.614 ...{projet/images/Model-View-Controller.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<projet/images/diagramme de sequance/images/Model-View-Controller.png, id=645, 557.08125pt x 425.59pt>
+File: projet/images/diagramme de sequance/images/Model-View-Controller.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/Model-View-Controller.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/Model-View-Controller.png  used on input line 629.
+(pdftex.def)             Requested size: 273.14923pt x 208.67729pt.
 
 
 
@@ -1595,22 +1202,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25]
-
-LaTeX Warning: File `projet/images/client-serveur.png' not found on input line 638.
-
-
-! Package pdftex.def Error: File `projet/images/client-serveur.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.638 ...ewidth]{projet/images/client-serveur.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+[23 <./projet/images/diagramme de sequance/images/lucide-react.png> <./projet/images/diagramme de sequance/images/jwt.png> <./projet/images/diagramme de sequance/AOS.png> <./projet/images/diagramme de sequance/images/toast.png>]
+<projet/images/diagramme de sequance/client-serveur.png, id=663, 185.493pt x 100.57574pt>
+File: projet/images/diagramme de sequance/client-serveur.png Graphic file (type png)
+<use projet/images/diagramme de sequance/client-serveur.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/client-serveur.png  used on input line 652.
+(pdftex.def)             Requested size: 273.14923pt x 148.12231pt.
 
 
 
@@ -1620,8 +1217,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 648--650
+[24 <./projet/images/diagramme de sequance/images/Model-View-Controller.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 661--662
 
  []
 
@@ -1634,35 +1231,50 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[27]
+[25 <./projet/images/diagramme de sequance/client-serveur.png>]
 Chapitre 3.
 
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 6.
 
+[26
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 A
-     près avoir exposé en détail les exigences de notre projet à travers...
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--21
-
+]
+Underfull \hbox (badness 2189) in paragraph at lines 65--65
+[]|\T1/ptm/m/n/12 En tant que ges-tion-naire, je sou-haite
  []
 
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28
+[27]
+<projet/images/diagramme de sequance/images/utilisateur.png, id=683, 413.74574pt x 124.66576pt>
+File: projet/images/diagramme de sequance/images/utilisateur.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/utilisateur.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/utilisateur.png  used on input line 94.
+(pdftex.def)             Requested size: 273.14923pt x 82.30627pt.
 
-]) (projet/chapitre4.tex
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28 <./projet/images/diagramme de sequance/images/utilisateur.png>]
+Overfull \hbox (0.93987pt too wide) in paragraph at lines 147--148
+[]\T1/ptm/b/n/12 La fi-gure ci-dessous re-pr�-sente le deuxi�me dia-gramme de cas d'uti-li-sa-tion de ce sprint. 
+ []
+
+<projet/images/diagramme de sequance/images/gestionnaire.png, id=690, 495.0495pt x 130.68825pt>
+File: projet/images/diagramme de sequance/images/gestionnaire.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/gestionnaire.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/gestionnaire.png  used on input line 151.
+(pdftex.def)             Requested size: 273.14923pt x 72.11006pt.
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1672,18 +1284,173 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [29]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[30 <./projet/images/diagramme de sequance/images/gestionnaire.png>]
+<projet/images/diagramme de sequance/consulter les utilisateurs admin sequnace diagram(1).png, id=714, 834.11626pt x 492.84125pt>
+File: projet/images/diagramme de sequance/consulter les utilisateurs admin sequnace diagram(1).png Graphic file (type png)
+<use projet/images/diagramme de sequance/consulter les utilisateurs admin sequnace diagram(1).png>
+Package pdftex.def Info: projet/images/diagramme de sequance/consulter les utilisateurs admin sequnace diagram(1).png  used on input line 208.
+(pdftex.def)             Requested size: 273.14923pt x 161.38976pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[31 <./projet/images/diagramme de sequance/consulter les utilisateurs admin sequnace diagram(1).png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[32]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33]
+<projet/images/diagramme de sequance/diagrame de sequance s'athentifier.png, id=751, 913.4125pt x 760.8425pt>
+File: projet/images/diagramme de sequance/diagrame de sequance s'athentifier.png Graphic file (type png)
+<use projet/images/diagramme de sequance/diagrame de sequance s'athentifier.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/diagrame de sequance s'athentifier.png  used on input line 320.
+(pdftex.def)             Requested size: 455.24411pt x 379.20131pt.
+<projet/images/diagramme de sequance/cree utilisateur admin sequance diagram.png, id=752, 886.31125pt x 630.355pt>
+File: projet/images/diagramme de sequance/cree utilisateur admin sequance diagram.png Graphic file (type png)
+<use projet/images/diagramme de sequance/cree utilisateur admin sequance diagram.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/cree utilisateur admin sequance diagram.png  used on input line 327.
+(pdftex.def)             Requested size: 455.24411pt x 323.77559pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[34 <./projet/images/diagramme de sequance/diagrame de sequance s'athentifier.png>]
+<projet/images/diagramme de sequance/modifier utlisateur admin sequance diagram.png, id=759, 907.39pt x 789.95125pt>
+File: projet/images/diagramme de sequance/modifier utlisateur admin sequance diagram.png Graphic file (type png)
+<use projet/images/diagramme de sequance/modifier utlisateur admin sequance diagram.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/modifier utlisateur admin sequance diagram.png  used on input line 334.
+(pdftex.def)             Requested size: 455.24411pt x 396.32466pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[35 <./projet/images/diagramme de sequance/cree utilisateur admin sequance diagram.png>]
+<projet/images/diagramme de sequance/supprimer utilisateur admin sequance diagram.png, id=766, 839.135pt x 489.83pt>
+File: projet/images/diagramme de sequance/supprimer utilisateur admin sequance diagram.png Graphic file (type png)
+<use projet/images/diagramme de sequance/supprimer utilisateur admin sequance diagram.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/supprimer utilisateur admin sequance diagram.png  used on input line 341.
+(pdftex.def)             Requested size: 455.24411pt x 265.7375pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[36 <./projet/images/diagramme de sequance/modifier utlisateur admin sequance diagram.png>]
+File: projet/images/diagramme de sequance/consulter les utilisateurs admin sequnace diagram(1).png Graphic file (type png)
+<use projet/images/diagramme de sequance/consulter les utilisateurs admin sequnace diagram(1).png>
+Package pdftex.def Info: projet/images/diagramme de sequance/consulter les utilisateurs admin sequnace diagram(1).png  used on input line 348.
+(pdftex.def)             Requested size: 455.24411pt x 268.98795pt.
+<projet/images/diagramme de sequance/images/registration.png, id=772, 1917.1625pt x 926.46124pt>
+File: projet/images/diagramme de sequance/images/registration.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/registration.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/registration.png  used on input line 360.
+(pdftex.def)             Requested size: 455.24411pt x 219.99442pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[37 <./projet/images/diagramme de sequance/supprimer utilisateur admin sequance diagram.png>]
+<projet/images/diagramme de sequance/images/login.png, id=778, 1917.1625pt x 926.46124pt>
+File: projet/images/diagramme de sequance/images/login.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/login.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/login.png  used on input line 367.
+(pdftex.def)             Requested size: 455.24411pt x 219.99442pt.
+<projet/images/diagramme de sequance/images/gestion d'utilisateur.png, id=779, 1917.1625pt x 926.46124pt>
+File: projet/images/diagramme de sequance/images/gestion d'utilisateur.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/gestion d'utilisateur.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/gestion d'utilisateur.png  used on input line 376.
+(pdftex.def)             Requested size: 455.24411pt x 219.99442pt.
+) (projet/chapitre4.tex
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[38 <./projet/images/diagramme de sequance/images/registration.png> <./projet/images/diagramme de sequance/images/login.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[39 <./projet/images/diagramme de sequance/images/gestion d'utilisateur.png>]
 Chapitre 4.
 
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 6.
 
-) (projet/conclusion.tex
+[40
 
-[30
+]
+File: projet/images/diagramme de sequance/images/gestionnaire.png Graphic file (type png)
+<use projet/images/diagramme de sequance/images/gestionnaire.png>
+Package pdftex.def Info: projet/images/diagramme de sequance/images/gestionnaire.png  used on input line 64.
+(pdftex.def)             Requested size: 273.14923pt x 72.11006pt.
 
-]) (projet/references.tex
 
-[31
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[41]) (projet/conclusion.tex
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[42]) (projet/references.tex
+
+[43
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 22--23
@@ -1702,7 +1469,7 @@ Overfull \hbox (224.3406pt too wide) in paragraph at lines 46--47
 
 
 
-[32
+[44
 
 ])
 Package minitoc Info: I0009
@@ -1745,39 +1512,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[33] (main.aux)
+[45] (main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  7C162A820C3DB5CF8D0AA4D698616BD0;9819.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 4AAF59214E1FAAC18A951523F8DB5DC2;11391.
  ) 
 Here is how much of TeX's memory you used:
- 18617 strings out of 469959
- 331760 string characters out of 5469835
- 712779 words of memory out of 5000000
- 44962 multiletter control sequences out of 15000+600000
+ 18069 strings out of 469959
+ 314909 string characters out of 5469835
+ 717180 words of memory out of 5000000
+ 44309 multiletter control sequences out of 15000+600000
  679577 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,597b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,588b,674s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/azizb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/azizb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/azizb/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/azizb/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/azizb/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/azizb/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (38 pages, 168148 bytes).
+Output written on main.pdf (53 pages, 2388527 bytes).
 PDF statistics:
- 392 PDF objects out of 1000 (max. 8388607)
- 169 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 929 PDF objects out of 1000 (max. 8388607)
+ 251 named destinations out of 1000 (max. 500000)
+ 714 words of extra memory for PDF output out of 10000 (max. 10000000)
 

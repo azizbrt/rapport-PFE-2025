@@ -101,7 +101,7 @@ SCRUM définit trois rôles, comme reflété dans la figure ci-dessous :\\
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\linewidth]{projet/images/equipeScrum.png}
+    \includegraphics[width=0.7\linewidth]{projet/images/diagramme de sequance/images/equipeScrum.png}
     \caption{L'équipe Scrum}
     \label{fig:equipe_scrum}
 \end{figure}
@@ -113,7 +113,6 @@ requises pour la construction d’un produit, ainsi que tous les éléments néc
 L’intervention de l’équipe. Ces éléments sont classés par ordre de priorité et de
 Leur dépendance, ce qui permet de spécifier l’ordre de leur réalisation.\\
 
-
 \begin{table}[h!]
 \renewcommand{\arraystretch}{1.6}
 \setlength{\tabcolsep}{5pt}
@@ -123,45 +122,61 @@ Leur dépendance, ce qui permet de spécifier l’ordre de leur réalisation.\\
 \textbf{ID} & \textbf{Sprint} & \textbf{User Story} & \textbf{Priorité} & \textbf{Complexité} \\
 \hline
 
+\multirow{8}{*}{2} & \multirow{8}{*}{\parbox{3cm}{\centering Authentification et gestion des utilisateurs}} 
+& En tant qu'utilisateur, je souhaite créer un compte. & Élevée & Moyenne \\
+\cline{3-5}
+&& En tant qu'utilisateur,je souhaite m’authentifier.. & Élevée & Moyenne \\
+\cline{3-5}
+&& En tant que gestionnaire, je souhaite créer un compte. & Élevée & Moyenne \\
+\cline{3-5}
+&& En tant que gestionnaire, je souhaite m’authentifier... & Élevée & Moyenne \\
+\cline{3-5}
+& & En tant qu’administrateur, je veux créer un utilisateur pour la gestion des utilisateurs. & Élevée & Moyenne \\
+\cline{3-5}
 
-\multirow{3}{*}{2} & \multirow{3}{*}{\parbox{3cm}{\centering Authentification\\ et gestion des utilisateurs}} 
-& En tant qu’utilisateur , je veux m’inscrire et me connecter pour accéder à mon espace.. & Élevé & Moyenne \\
+& & En tant qu’administrateur, je veux modifier un utilisateur pour la gestion des utilisateurs. & Élevée & Moyenne \\
 \cline{3-5}
-&& En tant que gestionnaire , je veux m’inscrire et me connecter pour accéder à mon espace.. & Élevé & Moyenne \\
+& & En tant qu’administrateur, je veux supprimer un utilisateur pour la gestion des utilisateurs. & Élevée & Moyenne \\
 \cline{3-5}
-& & En tant qu’administrateur, je veux gérer les rôles des utilisateurs pour contrôler l’accès.. & Élevé & Moyenne \\
+& & En tant qu’administrateur, je veux consulter un utilisateur pour la gestion des utilisateurs. & Élevée & Moyenne \\
 \cline{3-5}
 \hline
 
-
-\multirow{7}{*}{3} & \multirow{7}{*}{\parbox{3cm}{\centering Gestion\\ des évenements }} 
-& En tant qu’administrateur, je veux  modifier  des événements. & Élevé & Moyenne \\
+\multirow{7}{*}{3} & \multirow{7}{*}{\parbox{3cm}{\centering Gestion des événements}} 
+& En tant qu’administrateur, je veux modifier des événements. & Élevée & Moyenne \\
 \cline{3-5}
-& & En tant qu’administrateur, je veux supprimer des événements. & Élevé & Moyenne \\
+& & En tant qu’administrateur, je veux supprimer des événements. & Élevée & Moyenne \\
 \cline{3-5}
-& & En tant qu’administrateur, je veux Consulter des événements. & Élevé & Moyenne \\
+& & En tant qu’administrateur, je veux consulter des événements. & Élevée & Moyenne \\
 \cline{3-5}
-& & En tant qu’administrateur, je veux Approver des événements. & Élevé & Moyenne \\
+& & En tant qu’administrateur, je veux approuver des événements. & Élevée & Moyenne \\
 \cline{3-5}
-& & En tant que Gestionnaire , je veux Créer des événements. & Élevé & Moyenne \\
+& & En tant que gestionnaire, je veux créer des événements. & Élevée & Moyenne \\
 \cline{3-5}
-& & En tant que Gestionnaire, je veux Modifier des événements. & Élevé & Moyenne \\
+& & En tant que gestionnaire, je veux modifier des événements. & Élevée & Moyenne \\
 \cline{3-5}
-& & En tant que Gestionnaire, je veux Supprimer  des événements. & Élevé & Moyenne \\
+& & En tant que gestionnaire, je veux supprimer des événements. & Élevée & Moyenne \\
 \hline
+\end{tabular}
+\end{table}
 
-\multirow{3}{*}{4} & \multirow{3}{*}{\parbox{3cm}{\centering  Inscription et\\  interaction utilisateur }} 
-& qu’utilisateur, je veux m’inscrire à un événement. & Élevé & Moyenne \\
-\cline{3-5}
-& & En tant qu’utilisateur, je veux recevoir une notification après inscription. & Élevé & Moyenne \\
-\cline{3-5}
-& & En tant qu’utilisateur, je veux laisser un feedback après participation. & Élevé & Moyenne \\
-
+\begin{table}[h!]
+\renewcommand{\arraystretch}{1.6}
+\setlength{\tabcolsep}{5pt}
+\centering
+\begin{tabular}{|c|c|m{7cm}|c|c|}
 \hline
-\multirow{3}{*}{5} & \multirow{3}{*}{\parbox{3cm}{\centering Gestion avancée \\et tableaux de bord }} 
-& En tant qu’utilisateur, je consulte les statistique globales & Haute  & Moyenne \\
+\multirow{3}{*}{4} & \multirow{3}{*}{\parbox{3cm}{\centering Inscription et interaction utilisateur}} 
+& En tant qu’utilisateur, je veux m’inscrire à un événement. & Élevée & Moyenne \\
 \cline{3-5}
-& & En tant que Geestionnaire j'accéder au statistique des évenement  & Élevé & Moyenne \\
+& & En tant qu’utilisateur, je veux recevoir une notification après inscription. & Élevée & Moyenne \\
+\cline{3-5}
+& & En tant qu’utilisateur, je veux laisser un feedback après participation. & Élevée & Moyenne \\
+\hline
+\multirow{3}{*}{5} & \multirow{3}{*}{\parbox{3cm}{\centering Gestion avancée et tableaux de bord}} 
+& En tant qu’utilisateur, je veux consulter les statistiques globales. & Élevée & Moyenne \\
+\cline{3-5}
+& & En tant que gestionnaire, je veux accéder aux statistiques des événements. & Élevée & Moyenne \\
 \cline{3-5}
 \hline
 \end{tabular}
@@ -175,7 +190,7 @@ SCRUM. Nous diviserons notre projet en 4 releases qui seront constituées de 6 s
 suivante illustre la division des releases en sprints.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\linewidth]{projet/images/R1.png}
+    \includegraphics[width=0.9\linewidth]{projet/images/diagramme de sequance/images/R1.png}
     \caption{Planification des sprints}
     \label{fig:equipe_scrum}
  \end{figure}
@@ -192,7 +207,7 @@ Dans cette section, nous définissons les acteurs du système ainsi que leurs r�
 \textbf{Acteur} & \textbf{Rôle} & \textbf{Fonctionnalités/Services} \\ 
 \hline
 \parbox[c][3.5cm][c]{\linewidth}{\centering
-\includegraphics[width=0.3\linewidth]{projet/images/acteur.jpg} \\[0.2cm] \textbf{Administrateur}
+\includegraphics[width=0.3\linewidth]{projet/images/diagramme de sequance/acteur.jpg} \\[0.2cm] \textbf{Administrateur}
 } & 
 Gérer et administrer la plateforme & 
 \begin{itemize}[leftmargin=0.5cm]
@@ -203,7 +218,7 @@ Gérer et administrer la plateforme &
 \hline
 
 \parbox[c][3.5cm][c]{\linewidth}{\centering
-\includegraphics[width=0.3\linewidth]{projet/images/acteur.jpg} \\[0.2cm] \textbf{Utilisateur}
+\includegraphics[width=0.3\linewidth]{projet/images/diagramme de sequance/acteur.jpg} \\[0.2cm] \textbf{Utilisateur}
 } & 
 Participer aux événements & 
 \begin{itemize}[leftmargin=0.5cm]
@@ -214,7 +229,7 @@ Participer aux événements &
 \hline
 
 \parbox[c][3.5cm][c]{\linewidth}{\centering
-\includegraphics[width=0.3\linewidth]{projet/images/acteur.jpg} \\[0.2cm] \textbf{Gestionnaire des événements}
+\includegraphics[width=0.3\linewidth]{projet/images/diagramme de sequance/acteur.jpg} \\[0.2cm] \textbf{Gestionnaire des événements}
 } & 
 Organiser et gérer les événements & 
 \begin{itemize}[leftmargin=0.5cm]
@@ -234,7 +249,7 @@ Ce diagramme UML montre la relation des différents acteurs avec le système.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.3]{projet/images/Diagramme de contexte statique.png}
+    \includegraphics[scale=0.3]{projet/images/diagramme de sequance/images/Diagramme de contexte statique.png}
     \caption{Diagramme de contexte statique}
 \end{figure}
 
@@ -244,7 +259,7 @@ Voici le diagramme de cas d’utilisation global de notre application :
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{projet/images/Diagramme de cas d’utilisation global.png}
+    \includegraphics[width=\textwidth]{projet/images/diagramme de sequance/images/Diagramme de cas d’utilisation global.png}
     \caption{Diagramme de cas d'utilisation globale}
 \end{figure}
 
@@ -254,7 +269,7 @@ Ce diagramme UML représente la structure de données de notre application.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.95\textwidth]{projet/images/diagramme de classe.png}
+    \includegraphics[width=0.95\textwidth]{projet/images/diagramme de sequance/images/diagramme de classe.png}
     \caption{Diagramme de classes général de l'application}
     \label{fig:diagramme_classe}
 \end{figure}
@@ -287,12 +302,12 @@ que nous avons utilisé pour mener à terme notre projet.
 \begin{figure}[H]
     \centering
     \begin{minipage}[c]{0.3\textwidth}
-      \includegraphics[width=\linewidth]{projet/images/vs code.png}
+      \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/images/vs code.png}
     \end{minipage}
     \hspace{1cm}
     \begin{minipage}[c]{0.6\textwidth}
         \textbf{Visual Studio Code (VS Code).}\\[0.5em]
-        Est un éditeur de code source et un environnement de développement intégré (IDE) de Microsoft. Il est open-source et cross-platform, c’est-à-dire qu’il fonctionne sur Windows, Linux et Mac. Il a été conçu pour les développeurs web, mais il prend en charge de nombreux autres langages de programmation tels que C++, C#, Python, Java, etc.
+        Est un éditeur de code source et un environnement de développement intégré (IDE) de Microsoft. Il est open-source et cross-platform, c’est-à-dire qu’il fonctionne sur Windows, Linux et Mac. Il a été conçu pour les développeurs web, mais il prend en charge de nombreux autres langages de programmation tels que C++, C, Python, Java, etc.
     \end{minipage}
 \end{figure}
 
@@ -301,7 +316,7 @@ que nous avons utilisé pour mener à terme notre projet.
 \begin{figure}[H]
     \centering
     \begin{minipage}[c]{0.3\textwidth}
-        \includegraphics[width=\linewidth]{projet/images/PostMan.png}
+        \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/images/PostMan.png}
     \end{minipage}
     \hspace{1cm}
     \begin{minipage}[c]{0.6\textwidth}
@@ -315,7 +330,7 @@ que nous avons utilisé pour mener à terme notre projet.
 \begin{figure}[H]
     \centering
     \begin{minipage}[c]{0.3\textwidth}
-        \includegraphics[width=\linewidth]{projet/images/Node JS.png}
+        \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/images/Node JS.png}
     \end{minipage}
     \hspace{1cm}
     \begin{minipage}[c]{0.6\textwidth}
@@ -329,7 +344,7 @@ que nous avons utilisé pour mener à terme notre projet.
 \begin{figure}[H]
     \centering
     \begin{minipage}[c]{0.3\textwidth}
-        \includegraphics[width=\linewidth]{projet/images/GITHUB.png}
+        \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/images/GITHUB.png}
     \end{minipage}
     \hspace{1cm}
     \begin{minipage}[c]{0.6\textwidth}
@@ -343,7 +358,7 @@ que nous avons utilisé pour mener à terme notre projet.
 \begin{figure}[H]
     \centering
     \begin{minipage}[c]{0.3\textwidth}
-        \includegraphics[width=\linewidth]{projet/images/Overleaf.png}
+        \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/images/Overleaf.png}
     \end{minipage}
     \hspace{1cm}
     \begin{minipage}[c]{0.6\textwidth}
@@ -356,7 +371,7 @@ que nous avons utilisé pour mener à terme notre projet.
 \begin{figure}[H]
     \centering
     \begin{minipage}[c]{0.3\textwidth}
-        \includegraphics[width=\linewidth]{projet/images/téléchargement.jpg}
+        \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/images/téléchargement.jpg}
     \end{minipage}
     \hspace{1cm}
     \begin{minipage}[c]{0.6\textwidth}
@@ -370,7 +385,7 @@ que nous avons utilisé pour mener à terme notre projet.
 \begin{figure}[H]
     \centering
     \begin{minipage}[c]{0.3\textwidth}
-      \includegraphics[width=\linewidth]{projet/images/HTML5.png}
+      \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/images/HTML5.png}
     \end{minipage}
     \hspace{1cm}
     \begin{minipage}[c]{0.6\textwidth}
@@ -384,7 +399,7 @@ que nous avons utilisé pour mener à terme notre projet.
 \begin{figure}[H]
     \centering
     \begin{minipage}[c]{0.3\textwidth}
-        \includegraphics[width=\linewidth]{projet/images/CSS3.png}
+        \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/CSS3.png}
     \end{minipage}
     \hspace{1cm}
     \begin{minipage}[c]{0.6\textwidth}
@@ -399,7 +414,7 @@ lisé sur Internet pour la mise enforme de fichiers et de pages HTML.\cite{ref10
 \begin{figure}[H]
     \centering
     \begin{minipage}[c]{0.3\textwidth}
-        \includegraphics[width=\linewidth]{projet/images/JavaScript.png}
+        \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/images/JavaScript.png}
     \end{minipage}
     \hspace{1cm}
     \begin{minipage}[c]{0.6\textwidth}
@@ -415,7 +430,7 @@ images. \cite{ref11}
 \begin{figure}[H]
     \centering
     \begin{minipage}[c]{0.3\textwidth}
-        \includegraphics[width=\linewidth]{projet/images/latex.png}
+        \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/images/latex.png}
     \end{minipage}
     \hspace{1cm}
     \begin{minipage}[c]{0.6\textwidth}
@@ -427,7 +442,7 @@ images. \cite{ref11}
 \begin{figure}[H]
     \centering
     \begin{minipage}[c]{0.3\textwidth}
-        \includegraphics[width=\linewidth]{projet/images/Tailwind-CSS.png}
+        \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/images/Tailwind-CSS.png}
     \end{minipage}
     \hspace{1cm}
     \begin{minipage}[c]{0.6\textwidth}
@@ -440,7 +455,7 @@ images. \cite{ref11}
 \begin{figure}[H]
     \centering
     \begin{minipage}[c]{0.3\textwidth}
-        \includegraphics[width=\linewidth]{projet/images/express.png}
+        \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/images/express.png}
     \end{minipage}
     \hspace{1cm}
     \begin{minipage}[c]{0.6\textwidth}
@@ -452,7 +467,7 @@ images. \cite{ref11}
 \begin{figure}[H]
     \centering
     \begin{minipage}[c]{0.3\textwidth}
-        \includegraphics[width=\linewidth]{projet/images/mongodb.png}
+        \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/images/mongodb.png}
     \end{minipage}
     \hspace{1cm}
     \begin{minipage}[c]{0.6\textwidth}
@@ -464,7 +479,7 @@ images. \cite{ref11}
 \begin{figure}[H]
     \centering
     \begin{minipage}[c]{0.3\textwidth}
-        \includegraphics[width=\linewidth]{projet/images/reactJS.png}
+        \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/images/reactJS.png}
     \end{minipage}
     \hspace{1cm}
     \begin{minipage}[c]{0.6\textwidth}
@@ -476,7 +491,7 @@ images. \cite{ref11}
 \begin{figure}[H]
     \centering
     \begin{minipage}[c]{0.3\textwidth}
-        \includegraphics[width=\linewidth]{projet/images/vite.png}
+        \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/images/vite.png}
     \end{minipage}
     \hspace{1cm}
     \begin{minipage}[c]{0.6\textwidth}
@@ -489,7 +504,7 @@ images. \cite{ref11}
 \begin{figure}[H]
     \centering
     \begin{minipage}[c]{0.3\textwidth}
-        \includegraphics[width=\linewidth]{projet/images/recharts.png}
+        \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/images/recharts.png}
     \end{minipage}
     \hspace{1cm}
     \begin{minipage}[c]{0.6\textwidth}
@@ -502,7 +517,7 @@ images. \cite{ref11}
 \begin{figure}[H]
     \centering
     \begin{minipage}[c]{0.3\textwidth}
-        \includegraphics[width=\linewidth]{projet/images/router-dom.png}
+        \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/images/router-dom.png}
     \end{minipage}
     \hspace{1cm}
     \begin{minipage}[c]{0.6\textwidth}
@@ -515,7 +530,7 @@ images. \cite{ref11}
 \begin{figure}[H]
     \centering
     \begin{minipage}[c]{0.3\textwidth}
-        \includegraphics[width=\linewidth]{projet/images/Axios.png}
+        \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/Axios.png}
     \end{minipage}
     \hspace{1cm}
     \begin{minipage}[c]{0.6\textwidth}
@@ -528,7 +543,7 @@ images. \cite{ref11}
 \begin{figure}[H]
     \centering
     \begin{minipage}[c]{0.3\textwidth}
-        \includegraphics[width=\linewidth]{projet/images/TanStack Query.png}
+        \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/images/TanStack Query.png}
     \end{minipage}
     \hspace{1cm}
     \begin{minipage}[c]{0.6\textwidth}
@@ -541,7 +556,7 @@ images. \cite{ref11}
 \begin{figure}[H]
     \centering
     \begin{minipage}[c]{0.3\textwidth}
-        \includegraphics[width=\linewidth]{projet/images/material-ui-.png}
+        \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/images/material-ui-.png}
     \end{minipage}
     \hspace{1cm}
     \begin{minipage}[c]{0.6\textwidth}
@@ -555,7 +570,7 @@ images. \cite{ref11}
 \begin{figure}[H]
     \centering
     \begin{minipage}[c]{0.3\textwidth}
-        \includegraphics[width=\linewidth]{projet/images/lucide-react.png}
+        \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/images/lucide-react.png}
     \end{minipage}
     \hspace{1cm}
     \begin{minipage}[c]{0.6\textwidth}
@@ -567,7 +582,7 @@ images. \cite{ref11}
 \begin{figure}[H]
     \centering
     \begin{minipage}[c]{0.3\textwidth}
-        \includegraphics[width=\linewidth]{projet/images/jwt.png}
+        \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/images/jwt.png}
     \end{minipage}
     \hspace{1cm}
     \begin{minipage}[c]{0.6\textwidth}
@@ -581,7 +596,7 @@ nées. \cite{ref23}
 \begin{figure}[H]
     \centering
     \begin{minipage}[c]{0.3\textwidth}
-        \includegraphics[width=\linewidth]{projet/images/AOS.png}
+        \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/AOS.png}
     \end{minipage}
     \hspace{1cm}
     \begin{minipage}[c]{0.6\textwidth}
@@ -593,7 +608,7 @@ nées. \cite{ref23}
 \begin{figure}[H]
     \centering
     \begin{minipage}[c]{0.3\textwidth}
-        \includegraphics[width=\linewidth]{projet/images/toast.png}
+        \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/images/toast.png}
     \end{minipage}
     \hspace{1cm}
     \begin{minipage}[c]{0.6\textwidth}
@@ -611,7 +626,7 @@ conception d’application web. En général ce modèle permet de distinguer tro
 entités qui sont :
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\linewidth]{projet/images/Model-View-Controller.png}
+    \includegraphics[width=0.6\linewidth]{projet/images/diagramme de sequance/images/Model-View-Controller.png}
     \caption{L’architecture de Model-View-Controller}
     \label{fig:equipe_scrum}
 \end{figure}
@@ -620,13 +635,12 @@ entités qui sont :
 contient les données manipulées par le programme. En effet il peut s’agir
 d’un ensemble de fonctions (Modèle procédural) ou de classes (Modèle
 orienté objet).\\
-\textbf{• Vue :}\\
+\textbf{ • Vue :}\\
 Fait l’interface avec l’utilisateur puisque elle donne plusieurs vues, elle
-peut aussi présenter la possibilité à l’utilisateur de changer de vue.\\
+peut aussi présenter la possibilité à l’utilisateur de changer de vue..\\
 \textbf{• Contrôleur :}\\
 Un contrôleur contient la logique concernant les actions effectuées par
-l’utilisateur.
-
+l’utilisateur..
 \subsection{Architecture physique}
 Pour assurer de bonnes performances, nous avons choisi une architecture
 \textbf{client-serveur}.
@@ -635,19 +649,17 @@ Cette architecture est illustrée dans le schéma ci-dessous :
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\linewidth]{projet/images/client-serveur.png}
+    \includegraphics[width=0.6\linewidth]{projet/images/diagramme de sequance/client-serveur.png}
     \caption{L’architecture client-serveur}
     \label{fig:equipe_scrum}
 \end{figure}
-
 \begin{itemize}
-    \item \textbf{Le client} : que ce soit actif ou bien esclave, il lance la communication avec le serveur en adressant des demandes ou des requêtes.
-    \item \textbf{Le serveur} : considéré comme passif ou maître, il répond aux demandes du client.
+    \item \textbf{Le client} : que ce soit actif ou bien esclave lance la communication avec le serveur en adressant des demandes ou bien des requete
+    \item \textbf{Le serveur} : Considéré comme passif ou maître, il répond aux demandes du client
 \end{itemize}
 
-Grâce à cette séparation, chaque partie peut effectuer son travail de manière efficace et améliorer le système.
-et plus organisé\\
-\section*{Conclution}
+Grâce à cette séparation, chaque partie peut effectuer son travail de manière efficace et améliorer le système. plus rapide et plus organisé\\
+\section*{Conclusion}
 Dans ce chapitre, nous avons présenté la planification de notre travail Alors
 nous avons dégagé le premier artéfact le backlog de produit qui comporte les tous les liste des fonctionnalités de notre système, Par la suite nous avons dégagé ainsi les différents rôles de l’équipe dans le projet. Enfin nous avons choisi le concept de découpage pour la réalisation des sprints qui vont suivre, Nous allons enchainer à présent avec notre premier sprint dans le
 chapitre qui suit.
