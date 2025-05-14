@@ -1,5 +1,5 @@
 \chapter{Présentation du cadre du projet} 
- 
+
  \addcontentsline{toc}{chapter}{Chapitre 1 : Présentation du cadre du projet}
 \markboth{Chapitre 1 : Présentation du cadre du projet}{}
 \phantomsection % Crée un point d'ancrage pour les hyperliens dans le document
@@ -44,16 +44,30 @@ L'organigramme de l'OMINET est représenté dans la figure ci-dessous :
   \centering
   \begin{minipage}{0.45\textwidth}
     \centering
-    \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/images/omminet.png}
+    \includegraphics[width=\linewidth]{projet/images/omminet.png}
   \end{minipage}
   \hfill
   \begin{minipage}{0.45\textwidth}
     \centering
-    \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/images/omminet1.png}
+    \includegraphics[width=\linewidth]{projet/images/omminet1.png}
   \end{minipage}
   \caption{L’organigramme de l’OMINET}
 \end{figure}
 \section{Etude préalable }
+\subsection{Etude de l'existant }
+Actuellement, les associations, clubs et autres communautés en Tunisie utilisent des méthodes classiques ou des outils simples pour gérer leurs événements, mais ces solutions ne répondent pas toujours à leurs besoins. Voici ce qu’on remarque :
+\begin{enumerate}
+    \item \textbf{Méthodes traditionnelles :} \\
+    Les organisateurs gèrent souvent leurs inscriptions avec des fichiers Excel ou des listes papier. C’est simple mais vite inefficace quand il y a beaucoup de participants.
+    \item \textbf{Outils en ligne limités :} \\
+    Il existe des plateformes pour créer et gérer des événements, mais elles ne permettent pas forcément de gérer les inscriptions correctement, surtout quand les places sont limitées.
+    \item \textbf{Communication dispersée :} \\
+    Pour informer les participants, on passe par WhatsApp, des e-mails, ou des publications sur Facebook. C’est compliqué et parfois les gens ratent l’information importante.
+    \item \textbf{Peu de retours d’expérience :} \\
+    Les outils actuels n’aident pas vraiment à analyser les événements (comme voir combien de personnes se sont inscrites ou ce qui a bien fonctionné).
+    \item \textbf{Accessibilité :}  \\
+    Certaines plateformes sont trop chères ou compliquées à utiliser pour les petites associations ou clubs.
+\end{enumerate}
 \subsection{Critique de l’existant}
 En regardant de plus près, voici ce qui pose problème avec ces méthodes :
 \begin{itemize}[label=$\rightarrow$]
@@ -68,22 +82,10 @@ En regardant de plus près, voici ce qui pose problème avec ces méthodes :
     \item \textbf{Plateformes peu adaptées :} \\
     Certaines solutions existantes ne sont pas faites pour de petites structures, soit parce qu’elles sont trop chères, soit parce qu’elles ne correspondent pas aux besoins.
 \end{itemize}
-
-\subsection{Problématique:}
-Actuellement, les associations, clubs et autres communautés en Tunisie utilisent des méthodes classiques ou des outils simples pour gérer leurs événements, mais ces solutions ne répondent pas toujours à leurs besoins. Voici ce qu’on remarque :
-\begin{enumerate}
-    \item \textbf{Méthodes traditionnelles :} \\
-    Les organisateurs gèrent souvent leurs inscriptions avec des fichiers Excel ou des listes papier. C’est simple mais vite inefficace quand il y a beaucoup de participants.
-    \item \textbf{Outils en ligne limités :} \\
-    Il existe des plateformes pour créer et gérer des événements, mais elles ne permettent pas forcément de gérer les inscriptions correctement, surtout quand les places sont limitées.
-    \item \textbf{Communication dispersée :} \\
-    Pour informer les participants, on passe par WhatsApp, des e-mails, ou des publications sur Facebook. C’est compliqué et parfois les gens ratent l’information importante.
-    \item \textbf{Peu de retours d’expérience :} \\
-    Les outils actuels n’aident pas vraiment à analyser les événements (comme voir combien de personnes se sont inscrites ou ce qui a bien fonctionné).
-    \item \textbf{Accessibilité :}  \\
-    Certaines plateformes sont trop chères ou compliquées à utiliser pour les petites associations ou clubs.
-\end{enumerate}
 \subsection{Solution proposée}
+La solution envisagée est de mettre en ligne les événements en format électronique. Actuellement, ces événements sont transmis aux participants en utilisant les canaux comme WhatsApp ou Facebook. Ce nouveau service accompagnera le développement de Gestion d’Événements Communautaires et aussi une interface simple pour faciliter l'utilisation et accessible pour tous les âges, et pour gagner du temps aussi le participant a le choix de faire un commentaire 
+et quand le participant inscrit sur un événement, le système envoie une notification pour rappeler.
+\subsection{Objectifs}
 Notre plateforme apporte des solutions modernes pour simplifier la gestion des événements et répondre aux besoins des organisateurs :
 \begin{itemize}[label=$\star$]
   \item \textbf{Inscriptions faciles :} \\
@@ -143,7 +145,7 @@ et définies les tâches spécifiques  pour chaque élément sélectionné.
 \end{itemize}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\linewidth]{projet/images/diagramme de sequance/images/methodeScrum.jpg}
+    \includegraphics[width=0.9\linewidth]{projet/images/methodeScrum.jpg}
     \caption{ Le processus de Scrum}
     \label{fig:image_centree}
 \end{figure}
