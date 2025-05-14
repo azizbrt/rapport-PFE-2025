@@ -5,6 +5,11 @@
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {III.}Sprint 2 : Authentification et gestion des utilisateurs}{\reset@font\mtcSfont 27}{section.3.3}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.}Objectif du sprint}{\reset@font\mtcSSfont 27}{subsection.3.3.1}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.}Sprint backlog}{\reset@font\mtcSSfont 27}{subsection.3.3.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.}Implémentation du sprint 2}{\reset@font\mtcSSfont 28}{subsection.3.3.3}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.1}Spécification des besoins}{\reset@font\mtcSSSfont 28}{subsubsection.3.3.3.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.2}Réalisation}{\reset@font\mtcSSSfont 38}{subsubsection.3.3.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.}Implémentation}{\reset@font\mtcSSfont 28}{subsection.3.3.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.1}Politique de création de comptes}{\reset@font\mtcSSSfont 28}{subsubsection.3.3.3.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.2}Spécification des besoins}{\reset@font\mtcSSSfont 28}{subsubsection.3.3.3.2}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Diagramme et description : Inscription \& Authentification}{\reset@font\mtcPfont 28}{figure.caption.52}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Diagramme et description : Gestion des utilisateurs}{\reset@font\mtcPfont 30}{figure.caption.54}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.3}Diagrammes de séquence systèmes}{\reset@font\mtcSSSfont 31}{subsubsection.3.3.3.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.4}Diagramme de classe (à compléter)}{\reset@font\mtcSSSfont 32}{subsubsection.3.3.3.4}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.5}Réalisation}{\reset@font\mtcSSSfont 32}{subsubsection.3.3.3.5}}

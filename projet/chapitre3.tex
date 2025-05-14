@@ -21,352 +21,173 @@ L'objectif de ce sprint est de mettre en place l'environnement MERN, la configur
 \end{itemize}
 
 \section{Sprint 2 : Authentification et gestion des utilisateurs}
+
 \subsection{Objectif du sprint}
-L'objectif de ce sprint est de mettre en place un système d'authentification (JWT) et une gestion des rôles. Les tâches principales sont :
+L'objectif de ce sprint est de mettre en place un système d'authentification par JWT et une gestion des rôles (participant, gestionnaire, administrateur).  
+\textbf{Tâches principales :}
 \begin{itemize}
-    \item la création des modèles utilisateurs avec rôles ;
-    \item l'implémentation des routes d'authentification et la gestion des sessions avec JWT ;
-    \item l'interface React pour l'inscription et la connexion.
+  \item Modélisation \texttt{Utilisateur} avec rôle et état de compte ;
+  \item Routes d'inscription, d'authentification et gestion de session (JWT) ;
+  \item Interface React pour l'inscription, la connexion et le feedback d'erreur.
 \end{itemize}
 
 \subsection{Sprint backlog}
-Le deuxième sprint s'étend du 12 février au 21 février. Le tableau suivant représente le backlog de ce sprint.
-
-\renewcommand{\arraystretch}{1.6}
-\setlength{\tabcolsep}{5pt}
+\noindent\textbf{Période :} 12 février – 21 février  
 \begin{longtable}{|c|c|m{7cm}|c|c|}
-  \caption{User Stories – Sprint Authentification et gestion des utilisateurs} \\
-  \hline
-  \textbf{ID} & \textbf{Sprint} & \textbf{User Story} & \textbf{Priorité} & \textbf{Complexité} \\
-  \hline
+  \caption{User Stories – Sprint 2 : Authentification \& gestion des utilisateurs} \\ \hline
+  \textbf{ID} & \textbf{Sprint} & \textbf{User Story} & \textbf{Priorité} & \textbf{Complexité} \\ \hline
   \endfirsthead
-  
   \hline
-  \textbf{ID} & \textbf{Sprint} & \textbf{User Story} & \textbf{Priorité} & \textbf{Complexité} \\
-  \hline
+  \textbf{ID} & \textbf{Sprint} & \textbf{User Story} & \textbf{Priorité} & \textbf{Complexité} \\ \hline
   \endhead
-  
-  \hline
-  \endfoot
-  
-  \hline
-  \endlastfoot
-  
-  \multirow{8}{*}{2} & \multirow{8}{*}{\parbox{3cm}{\centering Authentification et\\ gestion des utilisateurs}} 
-  & En tant qu'utilisateur, je souhaite créer un compte. & Élevée & Moyenne \\
-  \cline{3-5}
-  && En tant qu'utilisateur, je souhaite m’authentifier. & Élevée & Moyenne \\
-  \cline{3-5}
-  && En tant que gestionnaire, je souhaite créer un compte. & Élevée & Moyenne \\
-  \cline{3-5}
-  && En tant que gestionnaire, je souhaite m’authentifier. & Élevée & Moyenne \\
-  \cline{3-5}
-  && En tant qu’administrateur, je veux créer un utilisateur pour la gestion des utilisateurs. & Élevée & Moyenne \\
-  \cline{3-5}
-  && En tant qu’administrateur, je veux modifier un utilisateur pour la gestion des utilisateurs. & Élevée & Moyenne \\
-  \cline{3-5}
-  && En tant qu’administrateur, je veux supprimer un utilisateur pour la gestion des utilisateurs. & Élevée & Moyenne \\
-  \cline{3-5}
-  && En tant qu’administrateur, je veux consulter un utilisateur pour la gestion des utilisateurs. & Élevée & Moyenne \\
-  \hline
-  \end{longtable}
+  \hline\endfoot
+  \hline\endlastfoot
 
-\subsection{Implémentation du sprint 2}
-\subsubsection{Spécification des besoins}
-Dans cette section, nous identifions les besoins de notre deuxième sprint, à travers :
+  \multirow{8}{*}{2} 
+  & \multirow{8}{*}{\parbox{3cm}{\centering Authentification et\\ gestion des utilisateurs}} 
+  & En tant que participant, je souhaite créer un compte. 
+  & Élevée & Moyenne \\ \cline{3-5}
+  && En tant que participant, je souhaite me connecter. 
+  & Élevée & Moyenne \\ \cline{3-5}
+  && En tant que gestionnaire, je souhaite obtenir un compte après validation par l’administrateur. 
+  & Élevée & Moyenne \\ \cline{3-5}
+  && En tant que gestionnaire, je souhaite me connecter. 
+  & Élevée & Moyenne \\ \cline{3-5}
+  && En tant qu’administrateur, je veux créer un utilisateur. 
+  & Élevée & Moyenne \\ \cline{3-5}
+  && En tant qu’administrateur, je veux modifier un utilisateur. 
+  & Élevée & Moyenne \\ \cline{3-5}
+  && En tant qu’administrateur, je veux supprimer un utilisateur. 
+  & Élevée & Moyenne \\ \cline{3-5}
+  && En tant qu’administrateur, je veux consulter la liste des utilisateurs. 
+  & Élevée & Moyenne \\
+  \hline
+\end{longtable}
+
+\subsection{Implémentation}
+
+\subsubsection{Politique de création de comptes}
+Seuls les \textbf{participants} peuvent créer un compte via le formulaire.  
+Les rôles \texttt{gestionnaire} et \texttt{admin} sont créés uniquement par un administrateur qui doit :
 \begin{itemize}
-    \item les diagrammes de cas d'utilisation,
-    \item les descriptions textuelles associées,
-    \item les diagrammes de séquences système.
+  \item recevoir une demande de création (email officiel) ;
+  \item vérifier la légitimité du gestionnaire ;
+  \item créer manuellement le compte et notifier le gestionnaire.
 \end{itemize}
 
-\textbf{La figure ci-dessous représente le premier diagramme de cas d'utilisation de ce sprint.}
+\subsubsection{Spécification des besoins}
+On détaille ici trois types de cas d’utilisation :  
+\textbf{–} Inscription / Authentification (participant \& gestionnaire)  
+\textbf{–} Gestion de comptes (administrateur)  
+Chaque cas est accompagné de son diagramme et de sa description textuelle.
 
+\paragraph{Diagramme et description : Inscription \& Authentification}
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\linewidth]{projet/images/diagramme de sequance/images/utilisateur.png}
-    \caption{Diagramme des cas d'utilisation « S'authentifier (Utilisateur) »}
-    \label{fig:equipe_scrum}
+  \centering
+  \includegraphics[width=0.6\linewidth]{projet/images/diagramme de sequance/diagrame d'inscription utilisateur.png}
+  \caption{Cas d'utilisation « S’inscrire / S’authentifier » (Participant)}
+  \label{fig:uc-participant}
 \end{figure}
 
-Ce diagramme décrit le processus d'authentification de l'utilisateur. Nous détaillons ci-après ce cas d'utilisation sous forme textuelle :
-
 \begin{longtable}{|>{\bfseries}p{4cm}|p{10cm}|}
 \hline
-Cas d'utilisation & S'inscrire \\
+Cas d'utilisation & S’inscrire (participant) \\
 \hline
-Acteurs & Utilisateur \\
+Acteur & Participant \\
 \hline
-Précondition & L'utilisateur demande l'interface d'inscription \\
+Pré-condition & Le formulaire d’inscription est accessible \\
 \hline
-Post-condition & Le compte est créé \\
+Post-condition & Compte créé, session ouverte \\
 \hline
-Scénario principal & 
+Scénario principal &
 \begin{enumerate}
-  \item Le système affiche la page d'inscription de connexion
-  \item L'utilisateur remplit le formulaire et le soumet
-  \item Le système vérifie les informations et crée le compte
-  \item Le système affiche un message de succès
+  \item Affichage du formulaire d’inscription ;
+  \item Saisie des informations ;
+  \item Soumission et validation ;
+  \item Création du compte et feedback de succès.
 \end{enumerate} \\
 \hline
-Scénario alternatif & Le système affiche un message d'erreur si le login ou mot de passe sont incorrects \\
+Scénario alternatif & Email déjà utilisé ou données invalides → message d’erreur \\
 \hline
-\caption{Description textuelle du cas d'utilisation pour Créer un compte}
-\end{longtable}
-
-\begin{longtable}{|>{\bfseries}p{4cm}|p{10cm}|}
-\hline
-Cas d'utilisation & S'authentifier (Utilisateur) \\
-\hline
-Acteurs & Utilisateur \\
-\hline
-Précondition & L'utilisateur possède un login et un mot de passe \\
-\hline
-Post-condition & Utilisateur Authentifié \\
-\hline
-Scénario principal & 
-\begin{enumerate}
-  \item Le système affiche l'interface qui contient un formulaire de connexion
-  \item L'utilisateur saisit son login et son mot de passe
-  \item Il confirme en cliquant sur le bouton « se connecter »
-  \item Le système affiche l'interface d'accueil propre à l'utilisateur
-\end{enumerate} \\
-\hline
-Scénario alternatif & Le système affiche un message d'erreur si le login ou mot de passe sont incorrects \\
-\hline
-\caption{Description textuelle du cas d'utilisation « S'authentifier (Utilisateur) »}
-\end{longtable}
-
-\textbf{La figure ci-dessous représente le deuxième diagramme de cas d'utilisation de ce sprint.}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\linewidth]{projet/images/diagramme de sequance/images/gestionnaire.png}
-    \caption{Diagramme des cas d'utilisation « S'authentifier (Gestionnaire) »}
-    \label{fig:equipe_scrum}
-\end{figure}
-
-Ce diagramme décrit le processus d'authentification de gestionnaire. Nous détaillons ci-après ce cas d'utilisation sous forme textuelle :
-
-\begin{longtable}{|>{\bfseries}p{4cm}|p{10cm}|}
-\hline
-Cas d'utilisation & S'inscrire \\
-\hline
-Acteurs & Gestionnaire \\
-\hline
-Précondition & Gestionnaire demande l'interface d'inscription \\
-\hline
-Post-condition & Le compte est créé \\
-\hline
-Scénario principal & 
-\begin{enumerate}
-  \item Le système affiche la page d'inscription de connexion
-  \item Gestionnaire remplit le formulaire et le soumet
-  \item Le système vérifie les informations et crée le compte
-  \item Le système affiche un message de succès
-\end{enumerate} \\
-\hline
-Scénario alternatif & Le système affiche un message d'erreur si le login ou mot de passe sont incorrects \\
-\hline
-\caption{Description textuelle du cas d'utilisation pour Créer un compte}
+\caption{Inscription participant}
 \end{longtable}
 
 \begin{longtable}{|>{\bfseries}p{4cm}|p{10cm}|}
 \hline
-Cas d'utilisation & S'authentifier (gestionnaire) \\
+Cas d'utilisation & S’authentifier (participant \& gestionnaire) \\
 \hline
-Acteurs & Gestionnaire \\
+Acteur & Participant / Gestionnaire \\
 \hline
-Précondition & L'utilisateur possède un login et un mot de passe \\
+Pré-condition & Le compte existe \\
 \hline
-Post-condition & Utilisateur Authentifié \\
+Post-condition & Token JWT renvoyé, redirection selon rôle \\
 \hline
-Scénario principal & 
+Scénario principal &
 \begin{enumerate}
-  \item Le système affiche l'interface qui contient un formulaire de connexion
-  \item L'utilisateur saisit son login et son mot de passe
-  \item Il confirme en cliquant sur le bouton « se connecter »
-  \item Le système affiche l'interface d'accueil propre de gestionnaire
+  \item Affichage du formulaire de connexion ;
+  \item Saisie des identifiants ;
+  \item Soumission, vérification et génération de JWT ;
+  \item Stockage du JWT (cookie HTTPOnly).
 \end{enumerate} \\
 \hline
-Scénario alternatif & Le système affiche un message d'erreur si le login ou mot de passe sont incorrects \\
+Scénario alternatif & Identifiants invalides → message d’erreur \\
 \hline
-\caption{Description textuelle du cas d'utilisation « S'authentifier (Gestionnaire) »}
+\caption{Authentification participant / gestionnaire}
 \end{longtable}
 
-\textbf{La figure ci-dessous représente le troisième diagramme de cas d'utilisation de ce sprint.}
-
+\paragraph{Diagramme et description : Gestion des utilisateurs}
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\linewidth]{projet/images/diagramme de sequance/consulter les utilisateurs admin sequnace diagram(1).png}
-    \caption{Diagramme des cas d'utilisation « gestion d'utilisation »}
-    \label{fig:equipe_scrum}
+  \centering
+  \includegraphics[width=0.6\linewidth]{projet/images/diagramme de sequance/modifier gestionnaire sequance diagram.png}
+  \caption{Cas d'utilisation « Gérer les utilisateurs » (Admin)}
+  \label{fig:uc-admin}
 \end{figure}
-
-Ce diagramme de cas d'utilisation représente le processus de gestion d'utilisateur, qui se manifeste dans l'ajout, la modification, la suppression, la consultation de la liste d'utilisateur. Nous détaillons ci-après ce cas d'utilisation sous forme textuelle :
 
 \begin{longtable}{|>{\bfseries}p{4cm}|p{10cm}|}
 \hline
-Cas d'utilisation & Créer un utilisateur \\
+Cas d'utilisation & Gérer les utilisateurs \\
 \hline
-Acteurs & Administrateur \\
+Acteur & Administrateur \\
 \hline
-Précondition & Authentification préalable \\
+Pré-condition & Admin connecté \\
 \hline
-Post-condition & Utilisateur est ajouté \\
+Post-condition & Opération CRUD réalisée \\
 \hline
-Scénario principal & 
+Scénario principal &
 \begin{enumerate}
-  \item L'administrateur clique sur le bouton d'ajout d'un utilisateur
-  \item Le système affiche le formulaire d'ajout d'un utilisateur
-  \item L'administrateur remplit le formulaire avec les informations du l'utilisateur et le soumet
-  \item Le système vérifie les informations et ajoute l'utilisateur
-  \item Le système affiche un message de succès
+  \item Affichage du tableau des utilisateurs ;
+  \item Choix d’une action (Créer, Modifier, Supprimer, Consulter) ;
+  \item Exécution de l’opération et feedback.
 \end{enumerate} \\
 \hline
-Scénario alternatif & 
-\begin{enumerate}
-  \item L'administrateur soumet le formulaire avec des informations incomplètes ou incorrectes
-  \item L'administrateur soumet le formulaire avec les informations d'utilisateur existant
-\end{enumerate} \\
+Scénario alternatif & Erreur de validation ou doublon email → message d’erreur \\
 \hline
-\caption{Description textuelle du cas d'utilisation pour créer un utilisateur}
+\caption{Gestion des utilisateurs (Admin)}
 \end{longtable}
 
-\begin{longtable}{|>{\bfseries}p{4cm}|p{10cm}|}
-\hline
-Cas d'utilisation & Modifier un utilisateur \\
-\hline
-Acteurs & Administrateur \\
-\hline
-Précondition & Authentification préalable \\
-\hline
-Post-condition & Utilisateur est modifié \\
-\hline
-Scénario principal & 
-\begin{enumerate}
-  \item L'administrateur choisit un utilisateur à modifier et clique sur son bouton de modification
-  \item Le système affiche le formulaire de modification d'un utilisateur
-  \item L'administrateur modifie les informations d'utilisateur et le soumet
-  \item Le système vérifie les informations et met à jour les données de l'utilisateur
-  \item Le système affiche un message de succès
-\end{enumerate} \\
-\hline
-Scénario alternatif & 
-\begin{enumerate}
-  \item L'administrateur soumet le formulaire avec des informations incomplètes ou incorrectes
-  \item Le système affiche un message d'erreur
-\end{enumerate} \\
-\hline
-\caption{Description textuelle du cas d'utilisation pour modifier un utilisateur}
-\end{longtable}
-
-\begin{longtable}{|>{\bfseries}p{4cm}|p{10cm}|}
-\hline
-Cas d'utilisation & Supprimer un utilisateur \\
-\hline
-Acteurs & Administrateur \\
-\hline
-Précondition & Authentification préalable \\
-\hline
-Post-condition & Utilisateur est supprimé \\
-\hline
-Scénario principal & 
-\begin{enumerate}
-  \item L'administrateur choisit un utilisateur et clique sur son bouton de suppression
-  \item Le système demande une confirmation de la suppression
-  \item L'administrateur confirme la suppression
-  \item Le système supprime l'utilisateur
-  \item Le système affiche un message de succès
-\end{enumerate} \\
-\hline
-Scénario alternatif & L'administrateur annule la confirmation \\
-\hline
-\caption{Description textuelle du cas d'utilisation pour supprimer un utilisateur}
-\end{longtable}
-
-\begin{longtable}{|>{\bfseries}p{3.5cm}|p{9cm}|}
-\hline
-Cas d'utilisation & Consulter un utilisateur \\
-\hline
-Acteurs & Administrateur \\
-\hline
-Précondition & Authentification préalable \\
-\hline
-Post-condition & La liste des utilisateurs est affichée \\
-\hline
-Scénario principal & 
-\begin{enumerate}
-  \item L'administrateur accède à la page de gestion des utilisateurs
-  \item Le système affiche un tableau contenant tous les utilisateurs
-\end{enumerate} \\
-\hline
-Scénario alternatif & Néant \\
-\hline
-\caption{Description textuelle du cas d'utilisation pour consulter la liste des utilisateurs}
-\end{longtable}
-
-\textbf{Les figures ci-après illustrent les diagrammes de séquences systèmes des différents cas d'utilisation de notre 2ème sprint.}
-
+\subsubsection{Diagrammes de séquence systèmes}
+\vspace{-1em}
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=1\linewidth]{projet/images/diagramme de sequance/diagrame de sequance s'athentifier.png}
-    \caption{Diagramme de séquence « Authentification »}
-    \label{fig:diagramme1}
+  \centering
+  \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/diagrame de sequance s'athentifier.png}
+  \caption{Séquence « Authentification / JWT »}
+  \label{fig:seq-auth}
 \end{figure}
 
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=1\linewidth]{projet/images/diagramme de sequance/cree utilisateur admin sequance diagram.png}
-    \caption{Diagramme de séquence système Créer un utilisateur}
-    \label{fig:diagramme2}
+  \centering
+  \includegraphics[width=\linewidth]{projet/images/diagramme de sequance/cree utilisateur admin sequance diagram.png}
+  \caption{Séquence « CRUD Utilisateurs » (Admin) }
+  \label{fig:seq-crud}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\linewidth]{projet/images/diagramme de sequance/modifier utlisateur admin sequance diagram.png}
-    \caption{Diagramme de séquence système Modifier un utilisateur}
-    \label{fig:diagramme3}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\linewidth]{projet/images/diagramme de sequance/supprimer utilisateur admin sequance diagram.png}
-    \caption{Diagramme de séquence système Supprimer un utilisateur}
-    \label{fig:diagramme4}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\linewidth]{projet/images/diagramme de sequance/consulter les utilisateurs admin sequnace diagram(1).png}
-    \caption{Diagramme de séquence système Consulter un utilisateur}
-    \label{fig:diagramme5}
-\end{figure}
-
-\textbf{Diagramme de classe (à compléter)}
+\subsubsection{Diagramme de classe (à compléter)}
+% Insérer ici le diagramme de classe Utilisateur / Session / Rôles
 
 \subsubsection{Réalisation}
-Cette interface représente le formulaire d'inscription dédié à l'utilisateur et gestionnaire, comprenant les champs nom mail mot de passe.
+\noindent\textbf{Formulaires} (inscription / connexion) et \textbf{tableau d’administration} implémentés en React, avec gestion des erreurs et feedback visuel.
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\linewidth]{projet/images/diagramme de sequance/images/registration.png}
-    \caption{Interface graphique de creation compte}
-    \label{fig:interface1}
-\end{figure}
+\noindent\textbf{Backend} : routes Express sécurisées, génération et vérification de JWT, middleware rôles.
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\linewidth]{projet/images/diagramme de sequance/images/login.png}
-    \caption{Interface graphique d'authentification}
-    \label{fig:interface2}
-\end{figure}
+\noindent\textbf{Frontend} : React + Zustand pour l’état d’authentification, Axios pour les requêtes.
 
-Cette interface représente la page d'accueil de l'administrateur. Elle s'affiche une fois la gestion des utilisateurs.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\linewidth]{projet/images/diagramme de sequance/images/gestion d'utilisateur.png}
-    \caption{Interface graphique de gérer les utilisateurs}
-    \label{fig:interface3}
-\end{figure}

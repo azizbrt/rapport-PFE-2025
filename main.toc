@@ -1,5 +1,5 @@
 \babel@toc {french}{}\relax 
-\contentsline {xchapter}{}{vii}{Doc-Start}%
+\contentsline {xchapter}{}{vi}{Doc-Start}%
 \contentsline {chapter}{Introduction Générale}{1}{Doc-Start}%
 \contentsline {chapter}{\numberline {1}Présentation du cadre du projet}{2}{chapter.1}%
 \contentsline {chapter}{Chapitre 1 : Présentation du cadre du projet}{2}{chapter.1}%
@@ -53,17 +53,22 @@
 \contentsline {section}{\numberline {III.}Sprint 2 : Authentification et gestion des utilisateurs}{27}{section.3.3}%
 \contentsline {subsection}{\numberline {1.}Objectif du sprint}{27}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {2.}Sprint backlog}{27}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.}Implémentation du sprint 2}{28}{subsection.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.1}Spécification des besoins}{28}{subsubsection.3.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.2}Réalisation}{38}{subsubsection.3.3.3.2}%
-\contentsline {chapter}{\numberline {4}RELEASE 2}{40}{chapter.4}%
-\contentsline {chapter}{Chapitre 4 : RELEASE 2}{40}{chapter.4}%
-\contentsline {section}{Introduction}{40}{section*.62}%
-\contentsline {section}{\numberline {I.}Organisation du sprint}{40}{section.4.1}%
-\contentsline {section}{\numberline {II.}Sprint 3 : Gestion des événements (CRUD)}{40}{section.4.2}%
-\contentsline {subsection}{\numberline {1.}Objectif du sprint}{40}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {2.}Sprint backlog}{41}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {3.}Implémentation du sprint 3}{41}{subsection.4.2.3}%
-\contentsline {subsubsection}{\numberline {3.1}Spécification des besoins}{41}{subsubsection.4.2.3.1}%
-\contentsline {chapter}{Conclusion Générale}{43}{figure.caption.64}%
-\contentsline {chapter}{Références}{43}{figure.caption.64}%
+\contentsline {subsection}{\numberline {3.}Implémentation}{28}{subsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.1}Politique de création de comptes}{28}{subsubsection.3.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.2}Spécification des besoins}{28}{subsubsection.3.3.3.2}%
+\contentsline {paragraph}{Diagramme et description : Inscription \& Authentification}{28}{figure.caption.52}%
+\contentsline {paragraph}{Diagramme et description : Gestion des utilisateurs}{30}{figure.caption.54}%
+\contentsline {subsubsection}{\numberline {3.3}Diagrammes de séquence systèmes}{31}{subsubsection.3.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.4}Diagramme de classe (à compléter)}{32}{subsubsection.3.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.5}Réalisation}{32}{subsubsection.3.3.3.5}%
+\contentsline {chapter}{\numberline {4}RELEASE 2}{33}{chapter.4}%
+\contentsline {chapter}{Chapitre 4 : RELEASE 2}{33}{chapter.4}%
+\contentsline {section}{Introduction}{33}{section*.57}%
+\contentsline {section}{\numberline {I.}Organisation du sprint}{33}{section.4.1}%
+\contentsline {section}{\numberline {II.}Sprint 3 : Gestion des événements (CRUD)}{33}{section.4.2}%
+\contentsline {subsection}{\numberline {1.}Objectif du sprint}{33}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {2.}Sprint backlog}{34}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {3.}Implémentation du sprint 3}{34}{subsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {3.1}Spécification des besoins}{34}{subsubsection.4.2.3.1}%
+\contentsline {chapter}{Conclusion Générale}{36}{figure.caption.59}%
+\contentsline {chapter}{Références}{36}{figure.caption.59}%
